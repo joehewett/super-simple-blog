@@ -1,5 +1,6 @@
 import * as React from 'react';
 import CardMedia from '@mui/material/CardMedia';
+import { DateTime } from "luxon";
 
 import { Avatar, Box, Card, CardContent, Divider, Grid, Typography } from '@mui/material';
 // import { Clock as ClockIcon } from '../../icons/clock';
@@ -13,6 +14,10 @@ interface BlogCardProps {
 }
 
 export default function BlogCard({title, description, frontMatter}: BlogCardProps) {
+
+  const now = DateTime.now()
+  const date = DateTime.fromISO(frontMatter.date).toLocaleString(DateTime.DATE_HUGE)
+
   return (
     // <Card sx={{ maxWidth: 345 }}>
     //   <CardActionArea>
@@ -105,7 +110,7 @@ export default function BlogCard({title, description, frontMatter}: BlogCardProp
                 sx={{ pl: 1 }}
                 variant="body2"
             >
-                {frontMatter.date}
+                {date}
             </Typography>
         </Grid>
         <Grid

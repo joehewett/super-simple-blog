@@ -29,7 +29,8 @@ const Home = (props: {
       <Container>
         {/* <ProductListToolbar /> */}
 
-        <Typography variant="h4">computer science, language models + overlanding</Typography>
+        <Typography variant="h3">joe</Typography>
+        <Typography align="right" variant="h5">language models, overlanding, computer science</Typography>
 
         <Box sx={{ pt: 5 }}>
           <Grid
