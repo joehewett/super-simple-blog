@@ -29,9 +29,9 @@ const Home = (props: {
       <Container>
         {/* <ProductListToolbar /> */}
 
-        <Typography variant="h4">Hello</Typography>
+        <Typography variant="h4">computer science, language models + overlanding</Typography>
 
-        <Box sx={{ pt: 3 }}>
+        <Box sx={{ pt: 5 }}>
           <Grid
             container
             spacing={3}
@@ -40,22 +40,22 @@ const Home = (props: {
             // justifyContent="center"
             // style={{ minHeight: '100vh' }}
           >
-            {props.posts.map(({slug, frontMatter: {title, description}}) => (
+            {props.posts.map(({slug, frontMatter: {title, description}, frontMatter}) => (
               <Link key={slug} href={`/blog/${slug}`} passHref>
                 <Grid
                   item
                   key={slug}
-                  lg={3}
-                  md={4}
+                  lg={4}
+                  md={6}
                   xs={12}
                 >
-                  <BlogCard title={title} markdown={description} />
+                  <BlogCard title={title} description={description} frontMatter={frontMatter} />
                 </Grid>
               </Link>
             ))}
           </Grid>
         </Box>
-        <Box
+        {/* <Box
           sx={{
             display: 'flex',
             justifyContent: 'center',
@@ -67,7 +67,7 @@ const Home = (props: {
             count={3}
             size="small"
           />
-        </Box>
+        </Box> */}
       </Container>
     </Box>
     </>

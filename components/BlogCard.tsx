@@ -8,10 +8,11 @@ import { Avatar, Box, Card, CardContent, Divider, Grid, Typography } from '@mui/
 
 interface BlogCardProps {
     title: string,
-    markdown: string
+    description: string,
+    frontMatter: { [key: string]: string }
 }
 
-export default function BlogCard({title, markdown}: BlogCardProps) {
+export default function BlogCard({title, description, frontMatter}: BlogCardProps) {
   return (
     // <Card sx={{ maxWidth: 345 }}>
     //   <CardActionArea>
@@ -39,30 +40,34 @@ export default function BlogCard({title, markdown}: BlogCardProps) {
             display: 'flex',
             flexDirection: 'column',
             height: '100%',
-            px: 0,
-            mx: 0
         }}
     >
-        <CardContent>
-        <Box
+        <CardContent sx={{p:0}}>
+        {/* <Box
             sx={{
             display: 'flex',
             justifyContent: 'center',
             pb: 0
             }}
         >
-        </Box>
+        </Box> */}
         <CardMedia
           component="img"
           height="200"
-          image="https://picsum.photos/300/300"
-          alt="green iguana"
+          image={frontMatter.thumbnail}
+          alt="Blog post thumbnail"
         />
         <Typography
             align="center"
             color="textPrimary"
             gutterBottom
             variant="h5"
+            pt="3"
+            mt="5"
+            sx={{ 
+              my: 3,
+              px: 2
+            }}
         >
             {title}
         </Typography>
@@ -70,8 +75,12 @@ export default function BlogCard({title, markdown}: BlogCardProps) {
             align="center"
             color="textPrimary"
             variant="body1"
+            sx={{ 
+              my: 2,
+              px: 2
+            }}
         >
-            {markdown}
+            {description}
         </Typography>
         </CardContent>
         <Box sx={{ flexGrow: 1 }} />
@@ -96,7 +105,7 @@ export default function BlogCard({title, markdown}: BlogCardProps) {
                 sx={{ pl: 1 }}
                 variant="body2"
             >
-                Updated 2hr ago
+                {frontMatter.date}
             </Typography>
         </Grid>
         <Grid
@@ -113,9 +122,7 @@ export default function BlogCard({title, markdown}: BlogCardProps) {
             sx={{ pl: 1 }}
             variant="body2"
           >
-            {10}
-            {' '}
-            Downloads
+            {/* Share */}
           </Typography>
         </Grid>
       </Grid>

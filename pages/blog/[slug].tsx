@@ -4,18 +4,54 @@ import path from 'path';
 import matter, {} from 'gray-matter';
 import {marked} from 'marked';
 import styles from "../../styles/Home.module.css";
+import { Box, Container, Grid, Typography } from "@mui/material";
 
 const BlogPost = (props: {
     frontMatter: { [key: string]: string },
     slug: string,
     content: string,
 }) => (
-    <div className={styles.container}>
-        <div className='prose prose-sm sm:prose lg:prose-lg mx-auto prose-slate'>
-            <img src={props.frontMatter.thumbnail} alt={props.frontMatter.title} />
-            <div dangerouslySetInnerHTML={{__html: marked(props.content)}}/>
-        </div>
-    </div>
+    <Box
+      display="flex"
+      justifyContent="center"
+      alignItems="center"
+      minHeight="100vh"
+      component="main"
+      sx={{
+        flexGrow: 1,
+        py: 8
+      }}
+    >
+      <Container maxWidth='md'>
+        {/* <ProductListToolbar /> */}
+
+        <Box sx={{ pt: 3 }}>
+          <Grid
+            container
+            spacing={3}
+            // direction="column"
+            // alignItems="center"
+            // justifyContent="center"
+            // style={{ minHeight: '100vh' }}
+          >
+            <div className='prose prose-sm sm:prose lg:prose-lg mx-auto prose-slate'>
+                {/* <img src={props.frontMatter.thumbnail} alt={props.frontMatter.title} /> */}
+                <Box
+                    component="img"
+                    sx={{
+                        width: '100%',
+                        // maxHeight: { xs: 233, md: 167 },
+                        // maxWidth: { xs: 350, md: 250 },
+                    }}
+                    alt="The house from the offer."
+                    src={props.frontMatter.thumbnail}
+                />
+                <div dangerouslySetInnerHTML={{__html: marked(props.content)}}/>
+            </div>
+          </Grid>
+        </Box>
+      </Container>
+    </Box>
 );
 
 export default BlogPost;

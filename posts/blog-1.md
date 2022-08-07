@@ -1,13 +1,12 @@
 ---
-title: 'Blog post 1'
+title: 'Debugging Kubernetes for Beginners'
 date: '2021-08-30T13:07:44.675Z'
-description: 'This is a test blog from Markdown'
-thumbnail: '/img/blog/blog-thumbnail.png'
+description: 'A few beginner steps towards debugging Kubernetes deployments.'
+thumbnail: '/img/blog/thumbnail1.png'
 ---
 
-Test markdown text here
 
-## This is a test Markdown
+## Debugging Kubernetes for Beginners
 o
 First, check minikube is running (`minikube start`) and ensure that the app is running e.g. `skaffold dev`.
 
