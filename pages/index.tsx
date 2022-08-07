@@ -4,6 +4,8 @@ import styles from '../styles/Home.module.css'
 import matter from 'gray-matter';
 import fs from "fs";
 import path from "path";
+import BlogCard from '../components/BlogCard'
+import { Box, Container, Grid, Pagination, Paper, styled, Typography } from '@mui/material';
 
 const Home = (props: {
   posts: [{
@@ -12,17 +14,63 @@ const Home = (props: {
   }]
 }) => {
   return (
-    <div className={styles.container}>
-      {props.posts.map(({slug, frontMatter: {title, description}}) => (
-          <Link key={slug} href={`/blog/${slug}`} passHref>
-            <a>
-              <h5>{title}</h5>
-              <p>{description}</p>
-              <hr />
-            </a>
-          </Link>
-      ))}
-    </div>
+    <>
+    <Box
+      display="flex"
+      justifyContent="center"
+      alignItems="center"
+      minHeight="100vh"
+      component="main"
+      sx={{
+        flexGrow: 1,
+        py: 8
+      }}
+    >
+      <Container>
+        {/* <ProductListToolbar /> */}
+
+        <Typography variant="h4">Hello</Typography>
+
+        <Box sx={{ pt: 3 }}>
+          <Grid
+            container
+            spacing={3}
+            // direction="column"
+            // alignItems="center"
+            // justifyContent="center"
+            // style={{ minHeight: '100vh' }}
+          >
+            {props.posts.map(({slug, frontMatter: {title, description}}) => (
+              <Link key={slug} href={`/blog/${slug}`} passHref>
+                <Grid
+                  item
+                  key={slug}
+                  lg={3}
+                  md={4}
+                  xs={12}
+                >
+                  <BlogCard title={title} markdown={description} />
+                </Grid>
+              </Link>
+            ))}
+          </Grid>
+        </Box>
+        <Box
+          sx={{
+            display: 'flex',
+            justifyContent: 'center',
+            pt: 3
+          }}
+        >
+          <Pagination
+            color="primary"
+            count={3}
+            size="small"
+          />
+        </Box>
+      </Container>
+    </Box>
+    </>
   )
 }
 
