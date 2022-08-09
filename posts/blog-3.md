@@ -1,7 +1,7 @@
 ---
 title: 'Ideas'
 date: '2022-08-09T00:00:00.000Z'
-description: 'Things I'd like to write about.'
+description: 'Things I would like to write about.'
 thumbnail: '/img/blog/thumbnail3.png'
 ---
 
