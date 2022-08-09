@@ -1,13 +1,12 @@
 ---
 title: 'Debugging Kubernetes for Beginners'
-date: '2021-08-30T13:07:44.675Z'
+date: '2022-08-07T13:00:00.000Z'
 description: 'A few beginner steps towards debugging Kubernetes deployments.'
 thumbnail: '/img/blog/thumbnail1.png'
 ---
 
 
 ## Debugging Kubernetes for Beginners
-o
 First, check minikube is running (`minikube start`) and ensure that the app is running e.g. `skaffold dev`.
 
 `kubectl get services `
@@ -24,10 +23,11 @@ If no events seem relevant, try deleting the pod and looking at the events from 
 - `kubectl get pods`
 - `kubectl get pod $new_id`
 
-
+# Common Problems
+Below are a number of problems you're likely to run in to at some point or another
 
 ### ImagePullBackoff / ErrImgPull
-Try these instructions: [Kubernetes Troubleshooting Walkthrough - ImagePullBackoff](https://managedkube.com/kubernetes/k8sbot/troubleshooting/imagepullbackoff/2019/02/23/imagepullbackoff.html)
+A better guide exists for this problem: [Kubernetes Troubleshooting Walkthrough - ImagePullBackoff](https://managedkube.com/kubernetes/k8sbot/troubleshooting/imagepullbackoff/2019/02/23/imagepullbackoff.html)
 
 If you're having trouble pulling the image from the remote image repository, try the following:
 
@@ -41,7 +41,7 @@ If you're using a private registry, check that the secret exists and is correct.
 Some registries hav firewalls that limit IP addresses. Try to find out if the firewall is blocking the image pull. 
 
 
-## OOMKilled
+### OOMKilled
 https://www.containiq.com/post/oomkilled-troubleshooting-kubernetes-memory-requests-and-limits
 
 Increase the memory limit of the offending pod: 

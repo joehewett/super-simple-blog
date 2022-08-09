@@ -1,16 +1,14 @@
 ---
 title: 'A Brief Introduction to Kubernetes & Skaffold'
-date: '2021-08-30T13:07:44.675Z'
+date: '2022-08-07T00:00:00.000Z'
 description: 'Kubernetes allows us to orchestrate containers. Skaffold facilitates CI for Kubernetes.'
 thumbnail: '/img/blog/thumbnail2.png'
 ---
 
-# Quickstart
-
-https://skaffold.dev/docs/quickstart
+# A Brief Introduction to Kubernetes & Skaffold
+If you prefer to learn by doing, check out the Skaffold Quickstart: https://skaffold.dev/docs/quickstart
 
 # What is Kubernetes? 
-
 Most applications are comprised of a number of discrete services (e.g. frontend, backend, database, queue) that interact with eachother. 
 
 The entire application, or each of its individual services can be containerised.  
