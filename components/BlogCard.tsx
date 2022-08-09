@@ -1,6 +1,6 @@
 import * as React from 'react';
 import CardMedia from '@mui/material/CardMedia';
-import { DateTime } from "luxon";
+import { DateTime } from 'luxon';
 
 import { Avatar, Box, Card, CardContent, Divider, Grid, Typography } from '@mui/material';
 // import { Clock as ClockIcon } from '../../icons/clock';
