@@ -1,7 +1,7 @@
 ---
-title: 'Blog post 3'
-date: '2021-08-30T13:07:44.675Z'
-description: 'This is a test blog from Markdown'
+title: 'Barriers to entry in Artificial Intelligence'
+date: '2023-09-24-T00:00:00.000Z'
+description: 'Why does the average person not engage deeply with Artificial Intelligence?'
 thumbnail: '/img/blog/thumbnail5.png'
 ---
 

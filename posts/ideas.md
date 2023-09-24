@@ -7,6 +7,12 @@ thumbnail: '/img/blog/thumbnail3.png'
 
 There are a lot of topics I plan to write about.
 
+Posts ready to go:
+- A GPT-3-based Automated Victim for AFF 
+- Investu, a stock market trading simulator
+- Utility Indifference in Pursuit of Corrigible Artificial General Intelligence
+
+Topics I'd like to write about:
 - Go packages and Go modules
 - Using Kubernetes with Skaffold
 - A Beginners Guide to gRPC 
