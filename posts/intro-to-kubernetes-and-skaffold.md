@@ -1,12 +1,14 @@
 ---
 title: 'A Brief Introduction to Kubernetes & Skaffold'
 date: '2022-08-07T00:00:00.000Z'
-description: 'Kubernetes allows us to orchestrate containers. Skaffold facilitates CI for Kubernetes.'
+description: 'A few personal notes on Kubernetes and Skaffold'
 thumbnail: '/img/blog/thumbnail2.png'
 ---
 
 # A Brief Introduction to Kubernetes & Skaffold
-If you prefer to learn by doing, check out the Skaffold Quickstart: https://skaffold.dev/docs/quickstart
+If you prefer to learn by doing, check out the [Skaffold Quickstart](https://skaffold.dev/docs/quickstart)
+
+TLDR; Kubernetes allows us to orchestrate containers. Skaffold facilitates CI for Kubernetes.
 
 # What is Kubernetes? 
 Most applications are comprised of a number of discrete services (e.g. frontend, backend, database, queue) that interact with eachother. 
@@ -19,9 +21,7 @@ The entire application, or each of its individual services can be containerised.
 **Kubernetes** allows us to automate container operations. Kubernetes orchestrates our containers for us, meaning we don't have to worry about any manual deployment or management of containers ourselves. 
 
 # Kubernetes Clusters 
-
-![[components-of-kubernetes 1.svg]]
-https://kubernetes.io/docs/concepts/overview/components/
+[See the kubernetes docs here](https://kubernetes.io/docs/concepts/overview/components/)
 
 ## Cluster Structure 
 - Each application is deployed in a Kubernetes #cluster. 
@@ -84,8 +84,7 @@ A command line tool that facilitates continuous development for Kubernetes appli
 ### skaffold.yaml
 **skaffold.yaml** is a single pluggable declarative configuration file for the project. 
 
-> [!INFO]
-> Cloud Code provides assistance for writing skaffold.yaml files
+Tip: Cloud Code provides assistance for writing skaffold.yaml files
 
 For details, see the [skaffold.yaml documentation](https://skaffold.dev/docs/references/yaml/?version=v2beta29). 
 
@@ -96,15 +95,11 @@ For details, see the [skaffold.yaml documentation](https://skaffold.dev/docs/ref
 
 Cloud Code automatically configures container images for debugging, so that you can debug Kubernetes services easily in your IDE. 
 
-
-
 # Minikube
 Minikube allows us to deploy a single-node, local cluster for our kubernetes application. 
 
 # Kustomize
 Kustomize ([documentation](https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/)) is a tool to customise Kubernetes objects through a Kustomization file. i
-
-![[Pasted image 20220702161452.png]]
 
 ### Generating Resources
 Kustomize can help handle ConfigMaps and Secrets
