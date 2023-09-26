@@ -10,7 +10,8 @@ Concise thoughts on the relationship between AI and income inequality.
 
 ## Artificial Intelligence will help elevate people out of poverty
 
-Technology has significantly improved human living standards. This is is noticeable when considering the increase in the poverty threshold due to technological advancements. The GDP witnessed [a 500% increase](https://ourworldindata.org/grapher/world-gdp-over-the-last-two-millennia?stackMode=relative&time=earliest..2015) from 1 AD to the advent of the Industrial Revolution, followed by a dramatic 57,000% increase over the subsequent 200 years from 1800-2015.
+Technology has significantly improved human living standards. This is is noticeable when considering the increase in the poverty threshold due to technological advancements. The GDP witnessed  from 1 AD to the advent of the Industrial Revolution, followed by a dramatic 57,000% increase over the subsequent 200 years from 1800-2015.
+Technological advancements have greatly enhanced human living standards, as seen in the increase in the poverty threshold and the remarkable growth of GDP. Between 1 AD and 1800 AD GDP grew by 500%. The Industrial Revolution (in combination with other factors) then skyrocketed global GDP by 57,000% in the ~2 centuries from 1800-2015 [(source)](https://ourworldindata.org/grapher/world-gdp-over-the-last-two-millennia?stackMode=relative&time=earliest..2015)
 
 **Applications of AI in improving human development index (HDI)**
 
