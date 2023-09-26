@@ -1,6 +1,4 @@
-import type { NextPage } from 'next'
 import Link from 'next/link';
-import styles from '../styles/Home.module.css'
 import matter from 'gray-matter';
 import fs from "fs";
 import path from "path";
@@ -27,8 +25,6 @@ const Home = (props: {
       }}
     >
       <Container>
-        {/* <ProductListToolbar /> */}
-
         <Typography variant="h3">joe</Typography>
         <Typography align="right" variant="h5">language models, overlanding, computer science</Typography>
 
@@ -36,10 +32,6 @@ const Home = (props: {
           <Grid
             container
             spacing={3}
-            // direction="column"
-            // alignItems="center"
-            // justifyContent="center"
-            // style={{ minHeight: '100vh' }}
           >
             {props.posts.map(({slug, frontMatter: {title, description}, frontMatter}) => (
               <Link key={slug} href={`/blog/${slug}`} passHref>
@@ -56,19 +48,6 @@ const Home = (props: {
             ))}
           </Grid>
         </Box>
-        {/* <Box
-          sx={{
-            display: 'flex',
-            justifyContent: 'center',
-            pt: 3
-          }}
-        >
-          <Pagination
-            color="primary"
-            count={3}
-            size="small"
-          />
-        </Box> */}
       </Container>
     </Box>
     </>

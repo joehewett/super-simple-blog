@@ -3,8 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import matter, {} from 'gray-matter';
 import {marked} from 'marked';
-import styles from "../../styles/Home.module.css";
-import { Box, Container, Grid, Typography } from "@mui/material";
+import { Box, Container, Grid, Link, Typography } from "@mui/material";
 
 const BlogPost = (props: {
     frontMatter: { [key: string]: string },
@@ -23,25 +22,24 @@ const BlogPost = (props: {
       }}
     >
       <Container maxWidth='md'>
-        {/* <ProductListToolbar /> */}
+        <Link key={'.'} href={`/`} component="a">
+          <Typography variant="h3">joe</Typography>
+        </Link>
+        <Typography align="right" variant="h5">language models, overlanding, computer science</Typography>
+
 
         <Box sx={{ pt: 3 }}>
           <Grid
             container
             spacing={3}
-            // direction="column"
-            // alignItems="center"
-            // justifyContent="center"
-            // style={{ minHeight: '100vh' }}
           >
             <div className='prose prose-sm sm:prose lg:prose-lg mx-auto prose-slate'>
-                {/* <img src={props.frontMatter.thumbnail} alt={props.frontMatter.title} /> */}
                 <Box
                     component="img"
                     sx={{
                         width: '100%',
-                        // maxHeight: { xs: 233, md: 167 },
-                        // maxWidth: { xs: 350, md: 250 },
+                        maxHeight: { xs: 233, md: 167 },
+                        maxWidth: { xs: 350, md: 250 },
                     }}
                     alt="The house from the offer."
                     src={props.frontMatter.thumbnail}
