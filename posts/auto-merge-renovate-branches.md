@@ -1,10 +1,9 @@
 ---
-title: 'Utility Indifference'
-date: '2020-03-30T00:07:44.675Z'
-description: 'In Pursuit of Corrigible Artificial General Intelligence'
-thumbnail: '/img/blog/thumbnail8.png'
+title: 'Automating the Merging of Renovate Chore Branches'
+date: '2023-09-28T15:36:44.675Z'
+description: 'A bash script to make Renovate chores less time consuming'
+thumbnail: '/img/blog/thumbnail10.png'
 ---
-
 
 # Automating the Merging of Renovate Chore Branches
 
