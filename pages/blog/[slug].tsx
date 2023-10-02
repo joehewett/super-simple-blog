@@ -22,8 +22,8 @@ const BlogPost = (props: {
       }}
     >
       <Container maxWidth='md'>
-        <Link key={'.'} href={`/`} component="a">
-          <Typography variant="h3">joe</Typography>
+        <Link key={'.'} href={`/`} component="a" sx={{ textDecoration: 'none' }}>
+          <Typography variant="h3">home</Typography>
         </Link>
         <Typography align="right" variant="h5">language models, overlanding, computer science</Typography>
 
@@ -38,10 +38,9 @@ const BlogPost = (props: {
                     component="img"
                     sx={{
                         width: '100%',
-                        maxHeight: { xs: 233, md: 167 },
-                        maxWidth: { xs: 350, md: 250 },
+                        maxHeight: { xs: 233, md: 334 },
+                        maxWidth: { xs: 350, md: 500 },
                     }}
-                    alt="The house from the offer."
                     src={props.frontMatter.thumbnail}
                 />
                 <div dangerouslySetInnerHTML={{__html: marked(props.content)}}/>
