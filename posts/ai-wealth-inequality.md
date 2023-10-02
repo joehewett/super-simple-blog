@@ -5,7 +5,6 @@ description: 'AI could exacerbate an increasingly polarised job market making it
 thumbnail: '/img/blog/thumbnail7.png'
 ---
 
-# AI & Inequality
 Concise thoughts on the relationship between AI and income inequality.
 
 ## Artificial Intelligence will help elevate people out of poverty

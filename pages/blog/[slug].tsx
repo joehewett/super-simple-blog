@@ -23,10 +23,8 @@ const BlogPost = (props: {
     >
       <Container maxWidth='md'>
         <Link key={'.'} href={`/`} component="a" sx={{ textDecoration: 'none' }}>
-          <Typography variant="h3">home</Typography>
+          <Typography variant="h4">&#60;- home</Typography>
         </Link>
-        <Typography align="right" variant="h5">language models, overlanding, computer science</Typography>
-
 
         <Box sx={{ pt: 3 }}>
           <Grid
@@ -38,11 +36,13 @@ const BlogPost = (props: {
                     component="img"
                     sx={{
                         width: '100%',
-                        maxHeight: { xs: 233, md: 334 },
-                        maxWidth: { xs: 350, md: 500 },
+                        maxHeight: { xs: 233, md: 167 },
+                        maxWidth: { xs: 350, md: 250 },
+                        mt: 4,
                     }}
                     src={props.frontMatter.thumbnail}
                 />
+                <Typography align="left" variant="h3" sx={{ mt: 4 }}>{props.frontMatter.title}</Typography>
                 <div dangerouslySetInnerHTML={{__html: marked(props.content)}}/>
             </div>
           </Grid>

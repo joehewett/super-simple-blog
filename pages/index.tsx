@@ -11,6 +11,12 @@ const Home = (props: {
     frontMatter: { [key: string]: string }
   }]
 }) => {
+  var posts = props.posts;
+  // Sorted by date
+  var sorted = posts.sort((a, b) => (
+      new Date(b.frontMatter.date).getTime() - new Date(a.frontMatter.date).getTime()
+  ));
+
   return (
     <>
     <Box
@@ -33,7 +39,7 @@ const Home = (props: {
             container
             spacing={3}
           >
-            {props.posts.map(({slug, frontMatter: {title, description}, frontMatter}) => (
+            {sorted.map(({slug, frontMatter: {title, description}, frontMatter}) => (
               <Link key={slug} href={`/blog/${slug}`} passHref>
                 <Grid
                   item

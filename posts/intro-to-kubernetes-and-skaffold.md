@@ -5,7 +5,6 @@ description: 'A few personal notes on Kubernetes and Skaffold'
 thumbnail: '/img/blog/thumbnail2.png'
 ---
 
-# A Brief Introduction to Kubernetes & Skaffold
 If you prefer to learn by doing, check out the [Skaffold Quickstart](https://skaffold.dev/docs/quickstart)
 
 TLDR; Kubernetes allows us to orchestrate containers. Skaffold facilitates CI for Kubernetes.

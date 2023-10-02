@@ -5,8 +5,6 @@ description: 'A few beginner steps towards debugging Kubernetes deployments.'
 thumbnail: '/img/blog/thumbnail1.png'
 ---
 
-
-## Debugging Kubernetes for Beginners
 First, check minikube is running (`minikube start`) and ensure that the app is running e.g. `skaffold dev`.
 
 `kubectl get services `

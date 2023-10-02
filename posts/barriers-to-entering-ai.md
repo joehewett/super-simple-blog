@@ -5,8 +5,6 @@ description: 'Why does the average person not engage deeply with Artificial Inte
 thumbnail: '/img/blog/thumbnail5.png'
 ---
 
-### Barriers to Entry in Artificial Intelligence
-
 I have been thinking about why the average person doesn't engage deeply with Artificial Intelligence, depite it being clearly the most important field of not just our time, but of our species. 
 
 ### Depth

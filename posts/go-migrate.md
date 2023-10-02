@@ -1,6 +1,6 @@
 ---
 title: 'Migrating your database with Go Migrate'
-date: '2023-09-026T09:00:00.000Z'
+date: '2023-09-26T09:00:00.000Z'
 description: 'Tips for database migrations using Migrate'
 thumbnail: '/img/blog/thumbnail10.png'
 ---
