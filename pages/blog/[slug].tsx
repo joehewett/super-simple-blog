@@ -18,13 +18,37 @@ const BlogPost = (props: {
       component="main"
       sx={{
         flexGrow: 1,
-        py: 8
+        py: 8,
+        px: 2,
       }}
     >
-      <Container maxWidth='md'>
-        <Link key={'.'} href={`/`} component="a" sx={{ textDecoration: 'none' }}>
-          <Typography variant="h4">&#60;- home</Typography>
-        </Link>
+      <Container maxWidth='md' sx={{ px: 3 }}>
+        <Box sx={{ pt: 3 }}>
+          <Grid container spacing={3}>
+            <Grid item xs={12} md={6}>
+              <div style={{ textAlign: 'left' }}>
+                <Link key={'.'} href={`/`} component="a" sx={{ textDecoration: 'none' }}>
+                  <Typography variant="h4">&#60;- home</Typography>
+                </Link>
+              </div>
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <div style={{ textAlign: 'right' }}>
+                <Link href={`https://github.com/joehewett/next-blog/blob/main/posts/${props.slug}.md`} sx={{ textDecoration: 'none'}}>
+                  <Box
+                      component="img"
+                      sx={{
+                          width: '100%',
+                          maxHeight: { xs: 30, md: 30 },
+                          maxWidth: { xs: 30, md: 30 },
+                      }}
+                      src={'/img/github.png'}
+                  />
+                </Link>
+              </div>
+            </Grid>
+          </Grid>
+        </Box>
 
         <Box sx={{ pt: 3 }}>
           <Grid
@@ -36,8 +60,6 @@ const BlogPost = (props: {
                     component="img"
                     sx={{
                         width: '100%',
-                        maxHeight: { xs: 233, md: 167 },
-                        maxWidth: { xs: 350, md: 250 },
                         mt: 4,
                     }}
                     src={props.frontMatter.thumbnail}
