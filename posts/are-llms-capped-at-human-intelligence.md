@@ -1,8 +1,8 @@
 ---
-title: 'Are LLMs capped at human intelligence?'
-date: '2023-10-02T18:07:44.675Z'
-description: 'Thoughts on the claim that next-token prediction cannot surpass human performance'
-thumbnail: '/img/blog/thumbnail12.png'
+title: "Are LLMs capped at human intelligence?"
+date: "2023-10-02T18:07:44.675Z"
+description: "Thoughts on the claim that next-token prediction cannot surpass human performance"
+thumbnail: "/img/blog/thumbnail12.png"
 ---
 
 ### WIP: This post is a rough work in progress (03/10/2023)
@@ -14,27 +14,31 @@ Given that the dataset is supposedly human-generated and limited in size (the ar
 I think that this argument is flawed, for a number of reasons, which I will explai below.
 
 ### 1. The training data is not limited to human-generated text
-The datasets used to train large language models contain decidedly non-human data. Alongside novels, articles and tweets, the dataset contains historic time series data, weather patterns, machine generated log lines, stock prices, medical data and more. 
+
+The datasets used to train large language models contain decidedly non-human data. Alongside novels, articles and tweets, the dataset contains historic time series data, weather patterns, machine generated log lines, stock prices, medical data and more.
 
 An optimizer attempting to minimize loss on such a dataset will be forced to attempt to approximate the underlying data-generating processes. This means that a language model is not a model of human language, or even of a language-generating human, but a model of the world.
 
 Consider the fact that somewhere in the training data there exists the result of a hash function, followed by the string of characters that were hashed to produce that result. If the language model is to predict the sequence of tokens that follow the hash function, it must crack the hash function. This is a non-trivial task well beyond the capabilities of humans, and yet language models are, in theory, capable of doing it.
 
 ### 2. LLM architecture is not the be all and end all of artificial intelligence
+
 [Attention Is All You Need](https://arxiv.org/abs/1706.03762) introduced us to the transformer in 2017. In the intervening years, the transformer has been responsible for many of the critical breakthroughs we have seen in AI. It is a sufficient architecture for many tasks, and its limits are not yet understood; architectures very similar to those that we have today could continue to deliver more general and capable systems. But the transformer, and the implementation details of our current architectures, are not necessarily the end of the road.
 
 We could find that the design of the most capable models we have today are proveably capped in their capabilities, but that does not mean that large language models are a dead end. There will be other roads to explore, and other architectures to try.
 
-A quote from Gwern Branwen sums this thought up well: 
+A quote from Gwern Branwen sums this thought up well:
 
 _"This year, GPT-3 is scary because it’s a magnificently obsolete architecture from early 2018 (used mostly for software engineering convenience as the infrastructure has been debugged), which is small & shallow compared to what’s possible, with a simple uniform architecture trained in the dumbest way possible (unidirectional prediction of next text token) on a single impoverished modality (random Internet HTML text dumps) on tiny data (fits on a laptop), sampled in a dumb way8, its benchmark performance sabotaged by bad prompts & data encoding problems (especially arithmetic & commonsense reasoning), and yet, the first version already manifests crazy runtime meta-learning—and the scaling curves still are not bending!"_
 
+### 3. The Scaling Laws are holding
 
-### 3. The Scaling Hypothesis is holding
 TODO
 
 ### 4. LLMs can be trained using arbitrary amounts of compute and data
+
 TODO
 
 ### 5. LLMs are simulating every underlying data-generating processes simultaneously
+
 TODO
