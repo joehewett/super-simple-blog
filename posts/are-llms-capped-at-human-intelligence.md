@@ -27,7 +27,7 @@ Consider the fact that somewhere in the training data there exists the result of
 
 We could find that the design of the most capable models we have today are proveably capped in their capabilities, but that does not mean that large language models are a dead end. There will be other roads to explore, and other architectures to try.
 
-A quote from Gwern Branwen sums this thought up well:
+A [quote from Gwern Branwen](https://gwern.net/scaling-hypothesis) sums this thought up well:
 
 _"This year, GPT-3 is scary because it’s a magnificently obsolete architecture from early 2018 (used mostly for software engineering convenience as the infrastructure has been debugged), which is small & shallow compared to what’s possible, with a simple uniform architecture trained in the dumbest way possible (unidirectional prediction of next text token) on a single impoverished modality (random Internet HTML text dumps) on tiny data (fits on a laptop), sampled in a dumb way8, its benchmark performance sabotaged by bad prompts & data encoding problems (especially arithmetic & commonsense reasoning), and yet, the first version already manifests crazy runtime meta-learning—and the scaling curves still are not bending!"_
 
