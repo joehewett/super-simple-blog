@@ -14,7 +14,7 @@ Posts ready to go:
 
 Topics I'd like to write about:
 - Go packages and Go modules
-- Using Kubernetes with Skaffold
+- ~~Using Kubernetes with Skaffold~~
 - A Beginners Guide to gRPC 
 - Getting Started with Go 
 - Mock Testing in Go
@@ -22,7 +22,7 @@ Topics I'd like to write about:
 - Creating a Go gRPC Client for Tensorflow Serving
 - Simple Next.js Markdown Blog
 - Evolution Simulation: A Simple Way to Start Learning Python
-- Utility Indifference in Pursuit of Corrigible Artificial Intelligence
+- ~~Utility Indifference in Pursuit of Corrigible Artificial Intelligence~~
 - A-Level Computing in a Nutshell 
 - An Introduction to AI Safety
 - Large Language Models as Tools for Cybersecurity
