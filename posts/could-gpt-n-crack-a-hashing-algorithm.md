@@ -1,7 +1,7 @@
 ---
 title: "Can GPT-N crack SHA256?"
 date: "2023-10-02T18:07:44.675Z"
-description: ""
+description: "Could in be done in theory? Maybe"
 thumbnail: "/img/blog/thumbnail12.png"
 ---
 
