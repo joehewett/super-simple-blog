@@ -1,8 +1,8 @@
 ---
 title: "Are LLMs capped at human intelligence?"
-date: "2023-10-02T18:07:44.675Z"
+date: "2023-10-08T10:012:44.675Z"
 description: "Thoughts on the claim that next-token prediction cannot surpass human performance"
-thumbnail: "/img/blog/thumbnail12.png"
+thumbnail: "/img/blog/thumbnail13.png"
 ---
 
 ### WIP: This post is a rough work in progress (03/10/2023)
