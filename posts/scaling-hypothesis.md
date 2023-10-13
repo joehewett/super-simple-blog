@@ -2,7 +2,7 @@
 title: "The Scaling Hypothesis made simple"
 date: "2023-10-02T18:07:44.675Z"
 description: "Explaining the scaling hypothesis to those without prior context"
-thumbnail: "/img/blog/thumbnail4.png"
+thumbnail: "/img/blog/thumbnail14.png"
 ---
 
 ### Resources
