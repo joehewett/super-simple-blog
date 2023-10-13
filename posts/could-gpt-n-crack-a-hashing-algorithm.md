@@ -27,9 +27,9 @@ I think that training a large language model on the digest-input pairs of decrea
 
 If the LM can't grip onto any discernible patterns in the digest-input map sufficiently to learn the inverse mapping, it could instead store a table of digests and their corresponding output in its memory and consult the table when encountering a digest.
 
-However, given the nature of hashing algorithms, this is likely to be computationally infeasible. If we take SHA256, we would need 2^256 entries in our table, which is a number larger than the number of atoms in the universe;
+However, given the nature of hashing algorithms, this is likely to be computationally infeasible. If we take SHA256, we would need 2^256 entries in our table, which is a number larger than the number of atoms in the universe.
 
-The output space of SHA256 is 256 bits, which represented in hexidecimal would be 64 characters \[0-9a-f\].. For reference, the output space contains about 1.2*10^77 possible values, whilst the input space is essentially infinite. Given that the age of the universe is somewhere around 3x10^27 nanoseconds, it seems infeasible that such a large lookup table could be stored in a neural network given current technology. 
+The output space of SHA256 is 256 bits, which represented in hexidecimal would be 64 characters \[0-9a-f\].. For reference, the output space contains about 1.2*10^77 possible values, whilst the input space is essentially infinite. For some context, the age of the universe is about 3x10^27 nanoseconds. Storing such a large lookup table in a neural network is a long way off and can probably be written off as a possibility for now. 
 
 # Thoughts on the thought experiment 
 
