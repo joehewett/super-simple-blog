@@ -1,6 +1,6 @@
 ---
 title: "Breaking the import cycle in Go"
-date: "2023-10-014T18:07:44.675Z"
+date: "2023-10-14T18:07:44.675Z"
 description: "A quick summary of techniques to keep in mind when reasoning about import cycles"
 thumbnail: "/img/blog/thumbnail15.png"
 ---
