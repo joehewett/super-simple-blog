@@ -1,9 +1,11 @@
 ---
 title: "Can GPT-N crack SHA256?"
 date: "2023-10-02T18:07:44.675Z"
-description: "Could in be done in theory? Maybe"
+description: "Could it be done in theory?"
 thumbnail: "/img/blog/thumbnail12.png"
 ---
+
+**TLDR;** although theoretically possible, it's likely computationally infeasible with current technology. I believe the speaker has a different intention when using this analogy, which I explain in the conclusion.
 
 There's an oft quoted thought experiment, popularised by Eliezer Yudkowsky, that asks us to consider the fact that somewhere in the training data for a large language model, there exists the result of a hash function, followed by the string of characters that were hashed to produce that result. We're forced to think about what a language model optimizing for next token prediction is to do in this scenario. If the language model is to predict the sequence of tokens that follow the hash function, surely it must crack the hash function. 
 
