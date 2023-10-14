@@ -1,6 +1,6 @@
 ---
 title: "Are GPTs capped at human intelligence?"
-date: "2023-10-08T10:012:44.675Z"
+date: "2023-10-08T10:12:44.675Z"
 description: "Thoughts on the claim that transforms doing next token prediction cannot surpass human performance"
 thumbnail: "/img/blog/thumbnail1.png"
 ---

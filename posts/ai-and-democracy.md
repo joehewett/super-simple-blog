@@ -2,7 +2,7 @@
 title: 'AI and Democracy'
 date: '2022-03-21T00:00:00.000Z'
 description: 'Notes on how AI might degrade and destabilise the democratic society.'
-thumbnail: '/img/blog/thumbnail9.png'
+thumbnail: '/img/blog/thumbnail4.png'
 ---
 
 Some thoughts on the relationship between AI and democracy.
