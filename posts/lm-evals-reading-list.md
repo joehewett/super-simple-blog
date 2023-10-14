@@ -66,10 +66,10 @@ thumbnail: "/img/blog/thumbnail16.png"
 - **Difficult-to-identify properties** - some model properties are hard to find, there can be capability overhang or deceptive alignment. 
 - **Emergence** - sometimes specific capabilities only emerge at scale
 
-
-
-
 ## [Discovering Language Model Behaviors with Model-Written Evaluations - Anthropic](https://arxiv.org/pdf/2212.09251.pdf)
+
+## [How to Catch an AI Liar: Lie Detection in Black-Box LLMs by Asking Unrelated Questions](https://www.alignmentforum.org/posts/khFC2a4pLPvGtXAGG/how-to-catch-an-ai-liar-lie-detection-in-black-box-llms-by)
+- Related: https://www.alignmentforum.org/posts/noxJrzXcdz738uqMi/i-don-t-find-the-lie-detection-results-that-surprising-by-an
 
 ## [Evaluating Language-Model Agents on Realistic Autonomous Tasks - ARC](https://evals.alignment.org/Evaluating_LMAs_Realistic_Tasks.pdf)
 
