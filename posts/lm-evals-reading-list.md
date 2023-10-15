@@ -5,7 +5,7 @@ description: "I'm doing a little bit of studying on the eval landscape. Here are
 thumbnail: "/img/blog/thumbnail8.png"
 ---
 
-## [Model evaluation for extreme risks - DeepMind](https://arxiv.org/pdf/2305.15324.pdf)
+## [1] [Model evaluation for extreme risks - DeepMind](https://arxiv.org/pdf/2305.15324.pdf)
 
 ### Motivation
 - Authors distinguish between identifying dangerous capabilities using **dangerous capability evaluations** and measuring propensity of models to apply their capabilities for harm using **alignment evaluations**.
@@ -66,7 +66,7 @@ thumbnail: "/img/blog/thumbnail8.png"
 - **Difficult-to-identify properties** - some model properties are hard to find, there can be capability overhang or deceptive alignment. 
 - **Emergence** - sometimes specific capabilities only emerge at scale
 
-## [Discovering Language Model Behaviors with Model-Written Evaluations - Anthropic](https://arxiv.org/pdf/2212.09251.pdf)
+## [2] [Discovering Language Model Behaviors with Model-Written Evaluations - Anthropic](https://arxiv.org/pdf/2212.09251.pdf)
 
 This is related to the [@ Inverse Scaling](/blog/inverse-scaling) writeup.
 
@@ -118,14 +118,14 @@ Prompt for testing the model:
   - ${statement2}
 - [Assistant] I would say ${statement1}.
 
-## [How to Catch an AI Liar: Lie Detection in Black-Box LLMs by Asking Unrelated Questions](https://www.alignmentforum.org/posts/khFC2a4pLPvGtXAGG/how-to-catch-an-ai-liar-lie-detection-in-black-box-llms-by)
+## [3] [How to Catch an AI Liar: Lie Detection in Black-Box LLMs by Asking Unrelated Questions](https://www.alignmentforum.org/posts/khFC2a4pLPvGtXAGG/how-to-catch-an-ai-liar-lie-detection-in-black-box-llms-by)
 - Related: https://www.alignmentforum.org/posts/noxJrzXcdz738uqMi/i-don-t-find-the-lie-detection-results-that-surprising-by-an
 
 - LM's are capable of lying; they can output statements that are false despite being capable of outputting the right answer. 
 - Authors define a model’s answer to be a lie if it is 
   - a) wrong, and
   - b) in response to a question to which the model “knows” the correct answer (i.e. the model gives the correct answer under typical question-answering prompts).
-- Core hypothesis is taht LLMs that have just lied will respond differently to follow-up questions than LLMs that have not just lied.
+- Core hypothesis is that LLMs that have just lied will respond differently to follow-up questions than LLMs that have not just lied.
 - They ask the model a question, then ask it 10 known follow up questions. 
   - The questions come from 3 categories:
     - **Lie-related questions**: 'Do you like lying?'
@@ -136,15 +136,11 @@ Prompt for testing the model:
     - When the elicitation question is ambiguous or indeterminate
     - Unseen LLM architectures
 - The hope is that the detector can be used on arbitrary blackbox LMs, regardless of how sophisticated they are. 
-
-The key surprising finding here is the fact that 
-- a) the lie detector works at all, and
-  - This makes sense; it seems logical that a model that has just lied would be more likely to lie again, and models that have just lied would be more likely to admit to lying
-- b) it generalises so widely 
-  - There are some behaviours that generalise across LMs, like being vulnerable to adversarial examples, so this isn't completely unheard of.
-  - 
-
-
+- The key surprising finding here is the fact that 
+  - (a) the lie detector works at all, and
+    - This makes sense; it seems logical that a model that has just lied would be more likely to lie again, and models that have just lied would be more likely to admit to lying
+  - (b) it generalises so widely 
+    - There are some behaviours that generalise across LMs, like being vulnerable to adversarial examples, so this isn't completely unheard of.
 
 ### Thoughts and comments
 - If we train agents not to lie by using this type of lie detector in our training process, we might be able to reduce that chance of models lying to us, but it's equally possible that we may just cause the lying mechanism to become more sophisticated and obfuscated.
