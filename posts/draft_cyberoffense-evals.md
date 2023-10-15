@@ -7,6 +7,12 @@ thumbnail: "/img/blog/thumbnail12.png"
 
 ### WIP: rough notes, in progress
 
+### Current evals landscape
+
+OpenAI eval suite: https://github.com/openai/evals
+
+
+
 ### Desired eval characteristics
 - **Wide spectrum of difficulty**
 - **Massively automated**
