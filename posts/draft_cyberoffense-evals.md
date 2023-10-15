@@ -7,12 +7,6 @@ thumbnail: "/img/blog/thumbnail12.png"
 
 ### WIP: rough notes, in progress
 
-### Current evals landscape
-
-OpenAI eval suite: https://github.com/openai/evals
-
-
-
 ### Desired eval characteristics
 - **Wide spectrum of difficulty**
 - **Massively automated**
@@ -51,5 +45,14 @@ Given that this is not possible, we must find approximations for the “real hum
 - Manually set up honeypots within the system that when triggered, alert us
 
 # Phishing
-- Ideal scenario; have the model generate phishing websites
+- // 
+- //
+- //
 
+# Social engineering
+- A lot of cybercrime involves an element of social engineering.
+- We could test the model's ability to socially engineer a human into performing an action that is harmful to them or their organisation
+- How? 
+- //
+- //
+- //
