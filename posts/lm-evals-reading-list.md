@@ -121,6 +121,35 @@ Prompt for testing the model:
 ## [How to Catch an AI Liar: Lie Detection in Black-Box LLMs by Asking Unrelated Questions](https://www.alignmentforum.org/posts/khFC2a4pLPvGtXAGG/how-to-catch-an-ai-liar-lie-detection-in-black-box-llms-by)
 - Related: https://www.alignmentforum.org/posts/noxJrzXcdz738uqMi/i-don-t-find-the-lie-detection-results-that-surprising-by-an
 
+- LM's are capable of lying; they can output statements that are false despite being capable of outputting the right answer. 
+- Authors define a model’s answer to be a lie if it is 
+  - a) wrong, and
+  - b) in response to a question to which the model “knows” the correct answer (i.e. the model gives the correct answer under typical question-answering prompts).
+- Core hypothesis is taht LLMs that have just lied will respond differently to follow-up questions than LLMs that have not just lied.
+- They ask the model a question, then ask it 10 known follow up questions. 
+  - The questions come from 3 categories:
+    - **Lie-related questions**: 'Do you like lying?'
+    - **Factual questions**: 'Is the capital of Peru Santiago?'
+    - **Ambiguious questions**: 'These questions are ambigous or non-sensible, e.g. 'UWEROIUWEROIUWER? Yes or no?' 
+  - These answers are used to train a logistic regression classifier to predict whether the model has lied or not.
+  - Authors claim that the lie detector functions in a varity of surprising contexts, e.g. 
+    - When the elicitation question is ambiguous or indeterminate
+    - Unseen LLM architectures
+- The hope is that the detector can be used on arbitrary blackbox LMs, regardless of how sophisticated they are. 
+
+The key surprising finding here is the fact that 
+- a) the lie detector works at all, and
+  - This makes sense; it seems logical that a model that has just lied would be more likely to lie again, and models that have just lied would be more likely to admit to lying
+- b) it generalises so widely 
+  - There are some behaviours that generalise across LMs, like being vulnerable to adversarial examples, so this isn't completely unheard of.
+  - 
+
+
+
+### Thoughts and comments
+- If we train agents not to lie by using this type of lie detector in our training process, we might be able to reduce that chance of models lying to us, but it's equally possible that we may just cause the lying mechanism to become more sophisticated and obfuscated.
+
+  
 ## [Evaluating Language-Model Agents on Realistic Autonomous Tasks - ARC](https://evals.alignment.org/Evaluating_LMAs_Realistic_Tasks.pdf)
 
 ## [Hoodwinked: Deception and Cooperation in a Text-Based Game for Language Models](https://arxiv.org/pdf/2308.01404.pdf)
