@@ -5,9 +5,12 @@ description: 'Rebuttals to counter claims made against the capabilities of Langu
 thumbnail: '/img/blog/thumbnail17.png'
 ---
 
-These are rough notes for a talk I am giving in November. They are not complete yet.
+### WIP: These are rough notes for a talk I am giving in November. They are not complete yet.
 
-n this script we talk about 4 bad arguments:
+
+### Plan
+
+In this essay we will talk about 4 bad arguments:
 
 * 1) GPTs are only trying to predict the next token
   * Counter with analogy with jinclusive genetic fitness

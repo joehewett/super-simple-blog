@@ -68,6 +68,14 @@ thumbnail: "/img/blog/thumbnail8.png"
 
 ## [Discovering Language Model Behaviors with Model-Written Evaluations - Anthropic](https://arxiv.org/pdf/2212.09251.pdf)
 
+This is related to the [@ Inverse Scaling](/blog/inverse-scaling) writeup.
+
+![Experimental Setup]("img/blog/evals-reading-list/evals-setup.png")
+
+<img src="img/blog/evals-reading-list/evals-setup.png"
+     alt="experimental"
+     style="float: left; margin-right: 10px;" />
+
 ## [How to Catch an AI Liar: Lie Detection in Black-Box LLMs by Asking Unrelated Questions](https://www.alignmentforum.org/posts/khFC2a4pLPvGtXAGG/how-to-catch-an-ai-liar-lie-detection-in-black-box-llms-by)
 - Related: https://www.alignmentforum.org/posts/noxJrzXcdz738uqMi/i-don-t-find-the-lie-detection-results-that-surprising-by-an
 

@@ -32,7 +32,7 @@ const Home = (props: {
     >
       <Container>
         <Typography variant="h3">joe</Typography>
-        <Typography align="right" variant="h5">language models, overlanding, computer science</Typography>
+        <Typography align="right" variant="h5">rough thoughts on language models, overlanding, computer science</Typography>
 
         <Box sx={{ pt: 5 }}>
           <Grid
@@ -62,7 +62,9 @@ const Home = (props: {
 
 export async function getStaticProps() {
   // Get files from the posts dir
-  const files = fs.readdirSync(path.join('posts'))
+  let files = fs.readdirSync(path.join('posts'))
+
+  files = files.filter(filename => !filename.includes("draft"))
 
   const posts = files.filter(filename => filename.includes(".md")).map((filename) => {
     // Create slug
