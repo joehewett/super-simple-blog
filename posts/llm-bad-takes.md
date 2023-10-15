@@ -5,3 +5,5 @@ description: 'Rebuttals to counter claims made against the capabilities of Langu
 thumbnail: '/img/blog/thumbnail17.png'
 ---
 
+These are rough notes for a talk I am giving in November. They are not complete yet.
+

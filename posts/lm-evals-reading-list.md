@@ -2,7 +2,7 @@
 title: "LM evals reading list"
 date: "2023-10-15T18:07:44.675Z"
 description: "I'm doing a little bit of studying on the eval landscape. Here are the papers I'm reading and my notes."
-thumbnail: "/img/blog/thumbnail16.png"
+thumbnail: "/img/blog/thumbnail8.png"
 ---
 
 ## [Model evaluation for extreme risks - DeepMind](https://arxiv.org/pdf/2305.15324.pdf)
