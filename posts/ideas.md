@@ -7,18 +7,20 @@ thumbnail: '/img/blog/thumbnail3.png'
 
 There are a lot of topics I plan to write about.
 
-Posts ready to go:
-- A GPT-3-based Automated Victim for AFF 
-- Investu, a stock market trading simulator
-- Utility Indifference in Pursuit of Corrigible Artificial General Intelligence
 
 Topics I'd like to write about:
-- Go packages and Go modules
+- ~~An beginners intro to the Scaling Hypothesis~~
+- ~~Inverse Scaling~~
+- Language Models are Simulators
+- 
+- A GPT-3-based Automated Victim for AFF 
+- Investu, a stock market trading simulator
+- ~~Utility Indifference in Pursuit of Corrigible Artificial General Intelligence~~
+- ~~Go packages and Go modules~~
 - ~~Using Kubernetes with Skaffold~~
 - A Beginners Guide to gRPC 
 - Getting Started with Go 
 - Mock Testing in Go
-- Create a DALL-E 2 Picture Book
 - Creating a Go gRPC Client for Tensorflow Serving
 - Simple Next.js Markdown Blog
 - Evolution Simulation: A Simple Way to Start Learning Python
@@ -30,5 +32,5 @@ Topics I'd like to write about:
 
 Features I'd like to add to this site
 
-- A link to create a pull request for a given blog 
+- ~~A link to create a pull request for a given blog~~
 - Tags for articles

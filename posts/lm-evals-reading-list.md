@@ -1,5 +1,5 @@
 ---
-title: "LM Evals Reading List"
+title: "LM evals reading list"
 date: "2023-10-15T18:07:44.675Z"
 description: "I'm doing a little bit of studying on the eval landscape. Here are the papers I'm reading and my notes."
 thumbnail: "/img/blog/thumbnail16.png"

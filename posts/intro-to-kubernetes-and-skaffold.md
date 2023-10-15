@@ -1,5 +1,5 @@
 ---
-title: 'A Brief Introduction to Kubernetes & Skaffold'
+title: 'A brief introduction to Kubernetes & Skaffold'
 date: '2022-08-07T00:00:00.000Z'
 description: 'A few personal notes on Kubernetes and Skaffold'
 thumbnail: '/img/blog/thumbnail2.png'

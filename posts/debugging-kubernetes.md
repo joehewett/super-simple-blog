@@ -1,5 +1,5 @@
 ---
-title: 'Debugging Kubernetes for Beginners'
+title: 'Debugging Kubernetes for beginners'
 date: '2022-08-07T13:00:00.000Z'
 description: 'A few beginner steps towards debugging Kubernetes deployments.'
 thumbnail: '/img/blog/thumbnail1.png'
