@@ -21,6 +21,10 @@ thumbnail: "/img/blog/thumbnail12.png"
 - Capacity of a augmented-system is dependent on the quality of the augmentation. A base model may be capable of causing destruction but this may not be evident if it is handicapped by implementation barriers
 - Whatever harness we attach to the model, the implementation details of the model need to be abstracted away such that switching the model is a one liner
 - Tradeoffs: time, cost, accuracy, ethics
+- I would like to work on test harnesses and tooling for language models 
+- It seems like the quality of skaffolding is a major factor in the ability of models, for example in the ARC paper Evaluating LMAs
+- What's the ground truth for a cyber offense eval? We would want a model loose on the internet, worming around and causing havoc. But we can't do that. So we need to find a proxy for that.
+- 
 
 
 # Fraud 

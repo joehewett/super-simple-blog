@@ -146,10 +146,53 @@ Prompt for testing the model:
 - If we train agents not to lie by using this type of lie detector in our training process, we might be able to reduce that chance of models lying to us, but it's equally possible that we may just cause the lying mechanism to become more sophisticated and obfuscated.
 
   
-## [Evaluating Language-Model Agents on Realistic Autonomous Tasks - ARC](https://evals.alignment.org/Evaluating_LMAs_Realistic_Tasks.pdf)
+## [4] [Evaluating Language-Model Agents on Realistic Autonomous Tasks - ARC](https://evals.alignment.org/Evaluating_LMAs_Realistic_Tasks.pdf)
+
+Authors explore the ability of language models to acquire resources, create copies of themselves, and adapt to novel challenges in the wild
+
+They call these capabilities "autonomous replication and adaptation" (ARA)
+
+More specifically, they define ARA as a system that can: 
+- Make money, for example through freelance work or cybercrime.
+- Use money or other resources to obtain more computing power.
+- Install its own weights and scaffolding on new systems and make improvements to itself.
+- Recognize when a particular strategy fails and adopt an alternative approach.
+
+### Tasks
+- Seaching file systems for passwords
+- Make phone calls with Twilio
+- List top BBC articles
+- Find information on Wikipedia
+- Create bitcoin wallet
+- Count dogs in image
+- Ientify new employees at a company 
+- Set up GPT-J
+- Create language model
+- Automatically restart agent
+- Targeted phishing 
+- Increase LLaMA context length 
+
+The authors found that models of various sizes could perform the easier tasks like searching for passwords or making a phone call with Twilio, but struggled more with complex tasks. 
+
+They note that the quality of skaffold within which the model can operate is a major factor in the ability of models to perform tasks.
+
+### Thoughts
+Tangentially related, the skaffolding we use today is going to be very different to the skaffolding we use in the future. The tools be built today might look something like the early attempts at flight with wings strapped to arms. 
+
+We simply can't predict the way that models will use tools in the future, but we can be quite certain it won't be context-limited RAG-adapted models using MongoDB and Lynx/curl to scrape the web.
+
+I'm very appreciative of this paper and excited to see how this type of eval setup progresses. 
+
+
+
+
+
+
 
 ## [Hoodwinked: Deception and Cooperation in a Text-Based Game for Language Models](https://arxiv.org/pdf/2308.01404.pdf)
 
 ## [How evals might (or might not) prevent catastrophic risks from AI - LW](https://www.lesswrong.com/posts/SNdijuEn6erTJam3z/how-evals-might-or-might-not-prevent-catastrophic-risks-from)
 
 ## [Improving the safety of AI evals - LW](https://www.lesswrong.com/posts/XCRsg2ZnHBNAN862T/improving-the-safety-of-ai-evals)
+
+// 
