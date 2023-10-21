@@ -24,7 +24,7 @@ thumbnail: "/img/blog/thumbnail12.png"
 - I would like to work on test harnesses and tooling for language models 
 - It seems like the quality of skaffolding is a major factor in the ability of models, for example in the ARC paper Evaluating LMAs
 - What's the ground truth for a cyber offense eval? We would want a model loose on the internet, worming around and causing havoc. But we can't do that. So we need to find a proxy for that.
-- 
+- I'm interested in real world evals. I want to see how models perform in the wild. I want to see how they perform against real world cybersecurity measures like WAFs, locked down systems, honeypots etc.
 
 
 # Fraud 

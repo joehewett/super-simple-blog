@@ -10,7 +10,7 @@ thumbnail: '/img/blog/thumbnail17.png'
 
 ### Plan
 
-In this essay we will talk about 4 bad arguments:
+In this essay we will talk about some bad arguments:
 
 * 1) GPTs are only trying to predict the next token
   * Counter with analogy with jinclusive genetic fitness
@@ -24,3 +24,5 @@ In this essay we will talk about 4 bad arguments:
   * Counter with the fact that we’re not concerned by WHAT the model is doing, but HOW it is doing it
 * 5) Bonus bad argument: “Yeah but GPT-n can’t do X”
   * Point at the speed at which LLMs are breaking benchmarks
+* 6) GPTs can't reason 
+  * https://arxiv.org/pdf/2308.03762.pdf      
