@@ -7,6 +7,27 @@ thumbnail: "/img/blog/thumbnail1.png"
 
 I have only included talks from summer 2023 onwards. 
 
+### "LLMs are stochastic parrots" and Other Bad Takes 2023-11-24 
+A tech talk on common misconceptions in the LLM discourse that I think are low resolution and not productive. Specifically, addresses the claims that:
+- LLMs are stochastic parrots. 
+  - This argument appears reasonable on first glance but fails to account for surprising LM behaviours like the grokking of complex abilities
+- LLMs can't do $task
+  - Often tasks are found that LLMs are seemingly unable to solve, and these are used as proof that the LLMs is incapable of some behaviour or skill. 
+  - However, often it is the case that a simple change in prompt elicits the desired behaviour
+  - An example is Chain of Thought prompting being used to elicit better reasoning abilities from models 
+- LLMs will never do $task
+  - Often an argument is made that some task is out of the reaches of AI models
+  - These arguments have been made about chess, comprehension, language in general, the ability to generalise out of distribution, etc. 
+  - Advances in architectures usually solve the unsolveable problems
+  - It may be the case that problems are unsolveable with current architectures, but betting against some AI system or another solving a given problem or exhibiting some behaviour seems like a bad bet. 
+
+### Imperial College London 2023-10-25
+Key points
+- Discussed the state of cybersecurity, specifically anti-fraud efforts in 2023
+- Spoke on the coming problem of LLM-powered fraud that we may face
+- Spoke on measures we take to pre-empt this type of fraud
+- Discussed operating such a system at scale and the engineering challenges we face
+
 ### GCHQ's Cyberfirst Academy 2023-08-18
 Key points
 - Explored the problem space of conversational scams
@@ -16,35 +37,6 @@ Key points
 Key points:
 - Spoke on the arms race dynamics of cybercrime and cybercrime disruption 
 - Tried to give students concrete steps to begin working in cybercrime if they have no experience; 
-    - (Warning: I think that most jobs in cybersecurity will require good engineering skills, so these tips are an example of a practical roadmap towards gaining some basic engineering experience. These tips are just some examples of things you can do to make yourself more likely to get a job in cybersecurity, 
-    - Not many students have spent much time using Linux, but most jobs will require that you use some kind of linux distro. Switch your OS to a Linux distribution or if you're running windows, enable WSL for development; it's worth starting to learn if you're just starting out. 
-    - If you have no programming experience, start with a YouTube tutorial to help you get a simple website deployed. 
-      - Use `create-react-app` or similar to help
-      - Use `git` for version control. 
-      - Once you have your repo up and running, you can deploy your site using `vercel`.
-    - Once you have some experience with using git for version control and deploying a simple website, try and follow a fullstack tutorial and create a new site that has both a frontend and a backend. 
-      - For example, you could build a [ToDo app](https://www.youtube.com/watch?v=PvMDWbAPPK4) using the MERN stack 
-    - If you're going to store data, you can include a database which will teach you schema design.
-      - Creating an application with both a frontend and a backend will teach you about API design as well, and give you context for various real life security issues:
-        - Is your site vulnerable to SQL injection? 
-        - Have you added authentication to your API? Can anyone get any information from any endpoint or are they protected? 
-        - If you allow user inputs on your site or via your API, is your site vulnerable to XSS? 
-I think that working a real project is the only way to actually learn the necessary skills that a job is going to require from you.
-
-Onece you have this context, you will be better placed to start understanding thinks like:
-- Networking
-- Protocols (You will have seen your fair share of HTTP40X errors by now!)
-- Security considerations like SQL injection, XSS etc. 
-- What does it mean to design an efficient database schema?
-
-If you're going to apply to an engineering job, think about:
-- What does your GitHub profile look like? This will be one of the main things that your recruiter will look at
-- How is your code quality? 
-- Are you testing your code? 
-- Have you use a linter to keep the code uniform?
-- Is your main project complete with a README with running instructions? 
-- Have you used useful commit messages with sensible commits? 
-- Bonus: is anyone using your project? The gold standard would be to have software that someone else is using, although this is unlikely. 
-- Bonus: does your GitHub show that you have committed to any other projects besides your own? 
-
+  - Discussed building simple toy projects to learn fundamental skills like web development and networking
+  - Discussed the interview process that a new engineer might expect joining a new companny
 Overall the panel was enjoyable and the audience seemed receptive to hearing some practical advice - a rarity in an academic environment. 
