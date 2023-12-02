@@ -16,13 +16,13 @@ If I had one resource to recommend, it would be [Don't Worry About the Vase](htt
 # Blogs to follow
 1. [Don't Worry About the Vase](https://thezvi.substack.com/) - The comprehensive walkthrough of the weekly events and breakthroughs, mostly LLM-related.
 2. [One Useful Thing](https://www.oneusefulthing.org/) - Ethan Mollick is a professor at Wharton studying innovation. He translates AI research into actionable advice and provides commentary on recent events and breakthroughs.
-3 [Gwern](https://gwern.net/) - Gwern is a prolific writer on a wide range of topics, but his AI writing is particularly good. He has a knack for finding the most interesting papers and writing about them in a way that is accessible to non-technical readers.
+3. [Gwern](https://gwern.net/) - Gwern is a prolific writer on a wide range of topics, but his AI writing is particularly good. He has a knack for finding the most interesting papers and writing about them in a way that is accessible to non-technical readers.
 
 # Important podcast episodes to listen to
-1. Neel Nanda on Machine Learning Street Talk - https://youtu.be/_Ygf0GnlwmY?si=L7BM3rNY7b2OfqSs
-2. Dario Amodei (Anthropic CEO) on Dwarkesh - https://youtu.be/Nlkk3glap_U?si=rfU_ZOeWcIuZw_9a
-3. Max Tegmark on Lex Fridman - https://youtu.be/VcVfceTsD0A?si=4VbNv6o9BzUco5Sg
-4. Sam Altman on The New York Times - https://www.youtube.com/watch?v=wBX4xeefPiA
+1. Dario Amodei (Anthropic CEO) on Dwarkesh - https://youtu.be/Nlkk3glap_U?si=rfU_ZOeWcIuZw_9a
+2. Max Tegmark on Lex Fridman - https://youtu.be/VcVfceTsD0A?si=4VbNv6o9BzUco5Sg
+3. Sam Altman on The New York Times - https://www.youtube.com/watch?v=wBX4xeefPiA
+4. Neel Nanda on Machine Learning Street Talk - https://youtu.be/_Ygf0GnlwmY?si=L7BM3rNY7b2OfqSs - Neel is a researcher at Anthropic and a leading voice in the field of Mechanistic Interpretability. This episode is a great introduction to the field of MI and the challenges it faces. It may be too niche for some.
 
 # Twitter profiles to follow to stay in the loop
 1. [Max Tegmark](https://twitter.com/tegmark) is a professor and AI researcher at Massachusetts Institute of Technology. His insightful updates convey his accomplishments, which in turn shape the AI environment. His research, covering cosmology, physics, and AI, contribute valuable perspectives.
