@@ -184,6 +184,22 @@ We simply can't predict the way that models will use tools in the future, but we
 I'm very appreciative of this paper and excited to see how this type of eval setup progresses. 
 
 
+# [Taken out of context: On measuring situation awareness in LLMs](https://arxiv.org/pdf/2309.00667.pdf)
+
+- A model is situationally aware if it can recognise whether it is in testing or deployment. 
+- Relevant because models that are situationally aware and deceptively aligned could sandbag or deceive in safety evals at test time before changing their behaviour at deployment time.
+
+Sophisticated out-of-context reasoning: when an LLM is being tested it can leverage descriptions in its training data to infer that it is being tested. Unlike traditional train-test contamination, a model may ned sophisticated semantic understanding of the training documents to exploit their information at test time.
+
+Measuring out-of-context reasoning: see if model can pass test t after being finetuned on text descriptions of t but not shown examples of the test. Do not include test desc at training time. 
+
+### Results summary 
+- models fail at out-of-context reasoning when using a standard finetuning setup 
+- models can pass with a modified finetuning step that contains paraphrases of the descriptions of chatbots 
+
+self-locating knowledge: knowledge that some model M has that allows M to realise that it is M. Self-locating knowledge is a pre-requisite for sophisticated out-of-context reasoning because a model must first realise that it is being tested before it can use information from its training data to exploit the test.
+
+
 
 
 
