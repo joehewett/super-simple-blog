@@ -12,7 +12,7 @@ Topics I'd like to write about:
 - ~~An beginners intro to the Scaling Hypothesis~~
 - ~~Inverse Scaling~~
 - Language Models are Simulators
-- 
+- A case for LLMs as reasoning engines
 - A GPT-3-based Automated Victim for AFF 
 - Investu, a stock market trading simulator
 - ~~Utility Indifference in Pursuit of Corrigible Artificial General Intelligence~~
