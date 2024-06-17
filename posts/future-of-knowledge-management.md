@@ -2,7 +2,7 @@
 title: 'The Future of Knowledge Management'
 date: '2024-05-11T09:00:00.000Z'
 description: 'How and why our relationship with knowledge must change'
-thumbnail: '/img/blog/thumbnail17.png'
+thumbnail: '/img/blog/thumbnail9.png'
 ---
 
 Companies are successful in part because of their earned knowledge and the way they deploy it in the world. But the quantity of knowledge is increasing, making it harder to manage. The advent of language models, that allow for effectively free knowledge output, contribute to the problem.
