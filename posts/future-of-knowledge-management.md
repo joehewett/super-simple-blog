@@ -5,9 +5,11 @@ description: 'How and why our relationship with knowledge must change'
 thumbnail: '/img/blog/thumbnail9.png'
 ---
 
-Companies are successful in part because of their earned knowledge and the way they deploy it in the world. But the quantity of knowledge is increasing, making it harder to manage. The advent of language models, that allow for effectively free knowledge output, contribute to the problem.
+Companies are successful in part because of their earned knowledge and the way they deploy it in the world, yet our knowledge management systems are bad in the best case and catastrohpically awful at large organisations and in governments. 
 
-Paradoxically, language models themselves also partly solve the increasing about of information, as they can digest and output synthesized knowledge. But they also then reinforce other existing problems, like our inability to easily verify what is true, and have shortfalls like the fact that they need to be queried to garner information, and need retraining on ground truth regularly.
+Poor management of knowledge means that people repeat work already done by others, waste time searching in the dark across multiple platforms for what they're looking for, and use us valuable co-worker time asking the same questions again and again. 
+
+The volume of data inside organisations is increasing rapidly, and as we integrate agentic machine intelligence into our knowledge creation processes, this problem is only going to get worse.
 
 Knowledge management is a process that inlcludes the aggregation, parsing, semantic interpretation, locating of existing relevant knowledge, comparison, insertion and updating of knowledge, and finally presentation as required.
 
