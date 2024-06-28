@@ -1,6 +1,6 @@
 ---
 title: "An opinionated overview of a modern production Kubernetes system in 2024"
-date: "2024-06-027T00:00:00.000Z"
+date: "2024-06-27T00:00:00.000Z"
 description: "A high-level guide to setting up a modern production system with Kubernetes, Terraform, and GitOps practices."
 thumbnail: "/img/blog/thumbnail2.png"
 ---
