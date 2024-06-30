@@ -5,11 +5,16 @@ description: 'Which systems will be improved by increases in machine intelligenc
 thumbnail: '/img/blog/thumbnail6.png'
 ---
 
-We stand here on the dawn of a new age of escaped genies destined (absent defeaters) to never return to their lamp. And the genies are becoming more powerful on a daily basis. In this world, what can a startup founder be certain of beyond the graphs going up and to the right?
+### The road ahead
 
-There's a sentiment in startup circles that one should be building with an understanding that we might be at the base of an exponential, or at least a sigmoid with a lot of juice left in the tank. That's all well and good, but what does it mean for our budding biologically-based entrepreneur embarking on their journey? 
+In the following, I'll make the case that although we live in a time of dramatic uncertainty, we need to develop our systems with the understanding that the quantity and quality of intelligence on our planet is going to increase. In this world, well designed systems will be enhanced, others will be augmented, and the remainder will be absorbed.
 
-# Assume intelligence
+We stand here on the dawn of a new age of escaped genies destined (absent defeaters) to never return to their lamp. And the genies are becoming more powerful on a daily basis. In this world, what can an employee, a CEO or a startup founder be certain of? Being at the base of any exponential (or at least a sigmoid with a long runway ahead) casts a lot of doubts of almost anything we can say about the future, and this is especially true when the exponential relates to the quantity and quality of intelligence in the world. 
+
+Accepting this premise is one thing, but understanding how we can best navigate this world is another. 
+
+
+### Why assume intelligence?
 
 Those with a modicum of [situational awareness](https://situational-awareness.ai/) will have noticed that the Scaling Laws seem to be holding, the clusters seem to be getting bigger, the models keep getting better and the benchmarks are collapsing. 
 
@@ -19,11 +24,9 @@ People make claims that deep learning is running out of steam but that doesn't a
 
 Given Nvidia's ability to print money, monst of which comes from a handful of companies building their own models, we can venture to presume that large companies have thought about all of the potential bottlenecks, and have concluded that the investment is worth while. They surely believe there is a lot of value in being the creator of the thinking machines, and that there is a good amount of headroom to go in terms of the upper limits of intelligence.
 
-Those who are not Meta, Google and Microsoft would be wise to also be aware of this. 
+### How the future looks 
 
-# Practicalities of the future
-
-What are the practical implications of living at the base of a graph going up and to the right? First and foremost, we need to create with the understanding that our creation will either be absorbed into the model or amplified by it.
+What are the practical implications of living in this timeline, where appear to be at the base of a graph that is going up and to the right? My claim is that one  need to create with the understanding that our creation will either be absorbed into the model or amplified by it.
 
 We should assume given the progress, trend lines, and vested interest of the large corporations, that:
 - full multi-modality across text, images, video, sound and actions will be come standard 
@@ -37,9 +40,15 @@ The world of next token has already begun to change some areas like graphic desi
 
 This is not to say the jobs no longer exist, but the role of the human is transforming, for example by turning the human into a supervisor and quality assurance officer of a machine who produces the output, rather than the entity who produces the output themselves.
 
-We'd be wise to observe the shift taking place with todays jobs in the presence of basic AI systems, and think about what might happen in a world where half of the items in the bullet point list above come to fruition. The overhang of capabilities even of the models of today is substantial. So much raw possibility lies within GPT-4o that has not yet been exploited, that we could pause for a decade and still not have automated every job that could theoritically be done in large part by AI.  
+We'd be wise to observe the shift taking place with todays jobs in the presence of basic AI systems, and think about what might happen in a world where half of the items in the bullet point list above come to fruition. The overhang of capabilities even of the models of today is substantial. So much raw possibility lies within GPT-4o that has not yet been exploited, that we could pause for a decade and still not have enhanced, augmented or replaced entirely every job using AI. 
 
-But the labs haven't downed tools. They're working as hard as they possibly can on the next breakthroughs, throwing billions of dollars at the greatest minds and machines, and they are not slowing down 
+But the labs haven't downed tools. They're working as hard as they possibly can on the next breakthroughs, throwing billions of dollars at the greatest minds and machines, and they are not slowing down.
+
+### Where to go from here 
+
+- Exercise left to the read
 
 # Conclusion
 Just a few years ago, discussing the possibility of AGI was enough to be branded as a crack pot, but it's now the mission statement of serious companies and the table talk of serious thinkers who don't know what Less Wrong is. They might be wrong, but how do we stay above water if they're right? 
+
+Problem solving in unique environments is 
