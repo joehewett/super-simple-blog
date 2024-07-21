@@ -6,9 +6,13 @@ import Marked from 'marked-react'
 import matter from 'gray-matter';
 import Lowlight from 'react-lowlight';
 import javascript from 'highlight.js/lib/languages/javascript';
+import go from 'highlight.js/lib/languages/go';
+import bash from 'highlight.js/lib/languages/bash';
 import 'highlight.js/styles/github.css';
 
 Lowlight.registerLanguage('javascript', javascript);
+Lowlight.registerLanguage('go', go);
+Lowlight.registerLanguage('bash', bash);
 
 const renderer = {
   code(snippet: string, lang: string) {

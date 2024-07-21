@@ -19,27 +19,6 @@ export default function BlogCard({ title, description, frontMatter }: BlogCardPr
   const date = DateTime.fromISO(frontMatter.date).toLocaleString(DateTime.DATE_HUGE)
 
   return (
-    // <Card sx={{ maxWidth: 345 }}>
-    //   <CardActionArea>
-    //     <CardMedia
-    //       component="img"
-    //       height="140"
-    //       image="/static/images/cards/contemplative-reptile.jpg"
-    //       alt="green iguana"
-    //     />
-    //     <CardContent>
-    //       <Typography gutterBottom variant="h5" component="div">
-    //         {title}
-    //       </Typography>
-    //       <Typography variant="body2" color="text.secondary">
-    //         Lizards are a widespread group of squamate reptiles, with over 6,000
-    //         species, ranging across all continents except Antarctica
-    //       </Typography>
-    //     </CardContent>
-    //   </CardActionArea>
-    // </Card>
-
-
     <Card
       sx={{
         display: 'flex',
@@ -48,14 +27,6 @@ export default function BlogCard({ title, description, frontMatter }: BlogCardPr
       }}
     >
       <CardContent sx={{ p: 0 }}>
-        {/* <Box
-            sx={{
-            display: 'flex',
-            justifyContent: 'center',
-            pb: 0
-            }}
-        >
-        </Box> */}
         <CardMedia
           component="img"
           height="200"
