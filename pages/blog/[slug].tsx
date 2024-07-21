@@ -1,11 +1,38 @@
 import React from "react";
 import fs from 'fs';
 import path from 'path';
-// import matter, {} from 'gray-matter';
-// import {marked} from 'marked';
 import { Box, Container, Grid, Link, Typography } from "@mui/material";
-import Markdown from 'marked-react'
+import Marked from 'marked-react'
 import matter from 'gray-matter';
+import Lowlight from 'react-lowlight';
+import javascript from 'highlight.js/lib/languages/javascript';
+import 'highlight.js/styles/github.css';
+
+Lowlight.registerLanguage('javascript', javascript);
+
+const renderer = {
+  code(snippet: string, lang: string) {
+    return (
+      <Lowlight
+        language={lang || 'javascript'}
+        value={snippet}
+        inline={false}
+      />
+    );
+  },
+};
+
+interface MarkdownRendererProps {
+  markdown: string;
+}
+
+const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ markdown }) => {
+  return (
+    <div className="markdown-content">
+      <Marked renderer={renderer} breaks={true} gfm={true}>{markdown}</Marked>
+    </div>
+  );
+};
 
 const BlogPost = (props: {
   frontMatter: { [key: string]: string },
@@ -57,7 +84,8 @@ const BlogPost = (props: {
           container
           spacing={3}
         >
-          <div className='prose prose-sm sm:prose lg:prose-lg mx-auto prose-slate'>
+          <div className=''>
+            {/* <div className='prose prose-sm sm:prose lg:prose-lg mx-auto prose-slate'> */}
             <Box
               component="img"
               sx={{
@@ -67,7 +95,8 @@ const BlogPost = (props: {
               src={props.frontMatter.thumbnail}
             />
             <Typography align="left" variant="h3" sx={{ mt: 4 }}>{props.frontMatter.title}</Typography>
-            <Markdown value={props.content} />
+            {/* <Markdown value={props.content} renderer={renderer} breaks={true} gfm={true} /> */}
+            <MarkdownRenderer markdown={props.content} />
           </div>
         </Grid>
       </Box>

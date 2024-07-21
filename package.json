@@ -13,16 +13,21 @@
     "@emotion/styled": "^11.10.0",
     "@mui/icons-material": "^5.8.4",
     "@mui/material": "^5.9.3",
+    "@types/highlightjs": "^9.12.6",
+    "@types/lowlight": "^0.0.7",
     "gray-matter": "^4.0.3",
+    "highlight.js": "^11.10.0",
     "luxon": "^3.0.1",
     "marked": "^4.0.12",
     "marked-react": "^2.0.0",
     "moment": "^2.29.4",
     "next": "12.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-lowlight": "^3.0.0"
   },
   "devDependencies": {
+    "@types/highlight.js": "^10.1.0",
     "@types/luxon": "^3.0.0",
     "@types/marked": "^4.0.2",
     "@types/node": "17.0.21",
