@@ -8,11 +8,15 @@ import Lowlight from 'react-lowlight';
 import javascript from 'highlight.js/lib/languages/javascript';
 import go from 'highlight.js/lib/languages/go';
 import bash from 'highlight.js/lib/languages/bash';
+import yaml from 'highlight.js/lib/languages/yaml';
+import json from 'highlight.js/lib/languages/json';
 import 'highlight.js/styles/github.css';
 
 Lowlight.registerLanguage('javascript', javascript);
 Lowlight.registerLanguage('go', go);
 Lowlight.registerLanguage('bash', bash);
+Lowlight.registerLanguage('yaml', yaml);
+Lowlight.registerLanguage('json', json);
 
 const renderer = {
   code(snippet: string, lang: string) {
