@@ -2,8 +2,8 @@ import Link from 'next/link';
 import matter from 'gray-matter';
 import fs from "fs";
 import path from "path";
-import BlogCard from '../components/BlogCard'
-import { Box, Container, Grid, Typography } from '@mui/material';
+import { BlogCard } from '@/components/BlogCard';
+import Markdown from 'marked-react'
 
 const Home = (props: {
   posts: [{
@@ -19,43 +19,28 @@ const Home = (props: {
 
   return (
     <>
-      <Box
-        display="flex"
-        justifyContent="center"
-        alignItems="center"
-        minHeight="100vh"
-        component="main"
-        sx={{
-          flexGrow: 1,
-          py: 8
-        }}
-      >
-        <Container>
-          <Typography variant="h3">joe</Typography>
-          <Typography align="right" variant="h5">rough thoughts on language models, overlanding, computer science</Typography>
+      {/* <Markdown value="# Hello" breaks={undefined} gfm={undefined} /> */}
+      <main className="flex justify-center items-center min-h-screen py-24">
+        <div className="container mx-auto px-4">
+          <div className="px-8">
+            <h1 className="text-4xl font-bold">joe</h1>
+            <h2 className="text-2xl text-right">rough thoughts on language models, overlanding, computer science</h2>
 
-          <Box sx={{ pt: 5 }}>
-            <Grid
-              container
-              spacing={3}
-            >
+          </div>
+
+          <div className="mt-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {sorted.map(({ slug, frontMatter: { title, description }, frontMatter }) => (
                 <Link key={slug} href={`/blog/${slug}`} passHref>
-                  <Grid
-                    item
-                    key={slug}
-                    lg={4}
-                    md={6}
-                    xs={12}
-                  >
+                  <div className="w-full">
                     <BlogCard title={title} description={description} frontMatter={frontMatter} />
-                  </Grid>
+                  </div>
                 </Link>
               ))}
-            </Grid>
-          </Box>
-        </Container>
-      </Box>
+            </div>
+          </div>
+        </div>
+      </main >
     </>
   )
 }

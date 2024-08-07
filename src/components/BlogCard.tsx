@@ -1,11 +1,15 @@
-import * as React from 'react';
-import CardMedia from '@mui/material/CardMedia';
+import * as React from "react"
 import { DateTime } from 'luxon';
+import { useEffect, useState } from 'react';
 
-import { Avatar, Box, Card, CardContent, Divider, Grid, Typography } from '@mui/material';
-// import { Clock as ClockIcon } from '../../icons/clock';
-// import { Download as DownloadIcon } from '../../icons/download';
-
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 
 interface BlogCardProps {
   title: string,
@@ -13,92 +17,30 @@ interface BlogCardProps {
   frontMatter: { [key: string]: string }
 }
 
-export default function BlogCard({ title, description, frontMatter }: BlogCardProps) {
+export function BlogCard({ title, description, frontMatter }: BlogCardProps) {
+  const [postDate, setPostDate] = useState<string>('');
 
-  const date = DateTime.fromISO(frontMatter.date).toLocaleString(DateTime.DATE_FULL);
+  useEffect(() => {
+    const date = DateTime.fromISO(frontMatter.date).toLocaleString(DateTime.DATE_FULL);
+    setPostDate(date);
+  }, []);
 
   return (
-    <Card
-      sx={{
-        display: 'flex',
-        flexDirection: 'column',
-        height: '100%',
-      }}
-    >
-      <CardContent sx={{ p: 0 }}>
-        <CardMedia
-          component="img"
-          height="200"
-          image={frontMatter.thumbnail}
+    <Card className="w-full max-w-md outline-none border-none">
+      <CardHeader>
+        <img
+          className="w-full h-48 object-cover rounded-t-lg"
+          src={frontMatter.thumbnail}
           alt="Blog post thumbnail"
         />
-        <Typography
-          align="center"
-          color="textPrimary"
-          gutterBottom
-          variant="h5"
-          pt="3"
-          mt="5"
-          sx={{
-            my: 3,
-            px: 2
-          }}
-        >
-          {title}
-        </Typography>
-        <Typography
-          align="center"
-          color="textPrimary"
-          variant="body1"
-          sx={{
-            my: 2,
-            px: 2
-          }}
-        >
-          {description}
-        </Typography>
+      </CardHeader >
+      <CardContent>
+        <CardTitle className="text-2xl font-bold mb-2">{title}</CardTitle>
+        <CardDescription className="text-base">{description}</CardDescription>
       </CardContent>
-      <Box sx={{ flexGrow: 1 }} />
-      <Divider />
-      <Box sx={{ p: 2 }}>
-        <Grid
-          container
-          spacing={2}
-          sx={{ justifyContent: 'space-between' }}
-        >
-          <Grid
-            item
-            sx={{
-              alignItems: 'center',
-              display: 'flex'
-            }}
-          >
-            <Typography
-              color="textSecondary"
-              display="inline"
-              sx={{ pl: 1 }}
-              variant="body2"
-            >
-              {date}
-            </Typography>
-          </Grid>
-          <Grid
-            item
-            sx={{
-              alignItems: 'center',
-              display: 'flex'
-            }}
-          >
-            <Typography
-              color="textSecondary"
-              display="inline"
-              sx={{ pl: 1 }}
-              variant="body2"
-            >
-            </Typography>
-          </Grid>
-        </Grid>
-      </Box>
-    </Card>
-  );
+      <CardFooter className="flex justify-between items-center">
+        <p className="text-sm text-gray-600">{postDate}</p>
+      </CardFooter>
+    </Card >
+  )
 }

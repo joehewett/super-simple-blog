@@ -1,9 +1,11 @@
 import React from "react";
 import fs from 'fs';
 import path from 'path';
-import { Box, Container, Grid, Link, Typography } from "@mui/material";
-import Marked from 'marked-react'
+import Link from 'next/link';
+import Image from 'next/image';
+import Markdown from 'marked-react'
 import matter from 'gray-matter';
+import md from "markdown-it";
 import Lowlight from 'react-lowlight';
 import javascript from 'highlight.js/lib/languages/javascript';
 import go from 'highlight.js/lib/languages/go';
@@ -37,7 +39,7 @@ interface MarkdownRendererProps {
 const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ markdown }) => {
   return (
     <div className="markdown-content">
-      <Marked renderer={renderer} breaks={true} gfm={true}>{markdown}</Marked>
+      <Markdown renderer={renderer} breaks={true} gfm={true}>{markdown}</Markdown>
     </div>
   );
 };
@@ -47,69 +49,51 @@ const BlogPost = (props: {
   slug: string,
   content: string,
 }) => (
-  <Box
-    display="flex"
-    justifyContent="center"
-    alignItems="center"
-    minHeight="100vh"
-    component="main"
-    sx={{
-      flexGrow: 1,
-      py: 8,
-      px: 2,
-    }}
-  >
-    <Container maxWidth='md' sx={{ px: 3 }}>
-      <Box sx={{ pt: 3 }}>
-        <Grid container spacing={3}>
-          <Grid item xs={12} md={6}>
-            <div style={{ textAlign: 'left' }}>
-              <Link key={'.'} href={`/`} component="a" sx={{ textDecoration: 'none' }}>
-                <Typography variant="h4">&#60;- home</Typography>
-              </Link>
-            </div>
-          </Grid>
-          <Grid item xs={12} md={6}>
-            <div style={{ textAlign: 'right' }}>
-              <Link href={`https://github.com/joehewett/next-blog/blob/main/posts/${props.slug}.md`} sx={{ textDecoration: 'none' }}>
-                <Box
-                  component="img"
-                  sx={{
-                    width: '100%',
-                    maxHeight: { xs: 30, md: 30 },
-                    maxWidth: { xs: 30, md: 30 },
-                  }}
-                  src={'/img/github.png'}
-                />
-              </Link>
-            </div>
-          </Grid>
-        </Grid>
-      </Box>
-
-      <Box sx={{ pt: 3 }}>
-        <Grid
-          container
-          spacing={3}
-        >
-          <div className=''>
-            {/* <div className='prose prose-sm sm:prose lg:prose-lg mx-auto prose-slate'> */}
-            <Box
-              component="img"
-              sx={{
-                width: '100%',
-                mt: 4,
-              }}
-              src={props.frontMatter.thumbnail}
-            />
-            <Typography align="left" variant="h3" sx={{ mt: 4 }}>{props.frontMatter.title}</Typography>
-            {/* <Markdown value={props.content} renderer={renderer} breaks={true} gfm={true} /> */}
-            <MarkdownRenderer markdown={props.content} />
+  <main className="flex justify-center items-center min-h-screen py-8 px-2">
+    <div className="container max-w-3xl px-3">
+      <div className="pt-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <div className="text-left">
+            <Link href="/" className="no-underline">
+              <h4 className="text-2xl">&#60;- home</h4>
+            </Link>
           </div>
-        </Grid>
-      </Box>
-    </Container>
-  </Box>
+          <div className="text-right">
+            <Link href={`https://github.com/joehewett/super-simple-blog/blob/main/posts/${props.slug}.md`} className="no-underline">
+              <Image
+                src="/img/github.png"
+                alt="GitHub"
+                width={30}
+                height={30}
+                className="inline-block"
+              />
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <div className="pt-3">
+        <div className="grid grid-cols-1 gap-3">
+          <div className="space-y-8">
+            <Image
+              src={props.frontMatter.thumbnail}
+              alt="Thumbnail"
+              width={800}
+              height={400}
+              className="w-full mt-4"
+            />
+            <article
+              className='prose lg:prose-lg'
+              dangerouslySetInnerHTML={{
+                __html: md().render(props.content
+                )
+              }}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 );
 
 export default BlogPost;
