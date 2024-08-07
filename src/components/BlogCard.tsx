@@ -15,8 +15,7 @@ interface BlogCardProps {
 
 export default function BlogCard({ title, description, frontMatter }: BlogCardProps) {
 
-  const now = DateTime.now()
-  const date = DateTime.fromISO(frontMatter.date).toLocaleString(DateTime.DATE_HUGE)
+  const date = DateTime.fromISO(frontMatter.date).toLocaleString(DateTime.DATE_FULL);
 
   return (
     <Card
@@ -74,7 +73,6 @@ export default function BlogCard({ title, description, frontMatter }: BlogCardPr
               display: 'flex'
             }}
           >
-            {/* <ClockIcon color="action" /> */}
             <Typography
               color="textSecondary"
               display="inline"
@@ -91,14 +89,12 @@ export default function BlogCard({ title, description, frontMatter }: BlogCardPr
               display: 'flex'
             }}
           >
-            {/* <DownloadIcon color="action" /> */}
             <Typography
               color="textSecondary"
               display="inline"
               sx={{ pl: 1 }}
               variant="body2"
             >
-              {/* Share */}
             </Typography>
           </Grid>
         </Grid>
