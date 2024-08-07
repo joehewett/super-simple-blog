@@ -4,17 +4,15 @@ date: "2023-10-02T18:07:44.675Z"
 description: "Explaining the scaling hypothesis to those without prior context"
 thumbnail: "/img/blog/thumbnail14.png"
 ---
+# The Scaling Hypothesis made simple
+The Scaling Hypothesis suggests that artificial intelligence is a question primarily of vastly scaling our existing architectures. By applying our traditional learning algorithms at a vast scale we will reach increasingly sophisticated neural networks that evolve complex behaviour naturally.
+
+The Scaling Hypothesis directly contradcits what some argue; that advanced intelligence might need innovative architectures or advanced optimization processes rather than simple units combined with vast amounts of compute. 
 
 ### Resources
 - Gwern's 'The Scaling Hypothesis' is probably the closest you'll get to an authoratative account [(link)](https://gwern.net/scaling-hypothesis) (he probably coined it, let's be honest) 
 - Dario Amodei (Anthropic CEO) has a nice podcast with Dwarkesh that mainly revolves around scaling [(link)](https://www.dwarkeshpatel.com/p/dario-amodei#details)
 - If your preferred learning format is ML-adjacent Edgy Memes then this Ethan Caballero video is good [(link)](https://www.youtube.com/watch?v=UPlv-lFWITI)
-
-### What is it?
-
-The Scaling Hypothesis suggests that artificial intelligence is a question primarily of vastly scaling our existing architectures. By applying our traditional learning algorithms at a vast scale we will reach increasingly sophisticated neural networks that evolve complex behaviour naturally.
-
-The Scaling Hypothesis directly contradcits what some argue; that advanced intelligence might need innovative architectures or advanced optimization processes rather than simple units combined with vast amounts of compute. 
 
 ### Evidence that bigger is better
 

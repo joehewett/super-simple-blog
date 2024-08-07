@@ -5,9 +5,9 @@ description: 'Which systems will be improved by increases in machine intelligenc
 thumbnail: '/img/blog/thumbnail6.png'
 ---
 
-### The road ahead
+# Be Enhanced or Be Absorbed
 
-In the following, I'll make the case that although we live in a time of dramatic uncertainty, we need to develop our systems with the understanding that the quantity and quality of intelligence on our planet is going to increase. In this world, well designed systems will be enhanced, others will be augmented, and the remainder will be absorbed.
+In the following, I'll make the case that we need to develop our systems with the understanding that the quantity and quality of intelligence on our planet is going to increase. In this world, well designed systems will be enhanced, others will be augmented, and the remainder will be absorbed into the models.
 
 We stand here on the dawn of a new age of escaped genies destined (absent defeaters) to never return to their lamp. And the genies are becoming more powerful on a daily basis. In this world, what can an employee, a CEO or a startup founder be certain of? Being at the base of any exponential (or at least a sigmoid with a long runway ahead) casts a lot of doubt on almost anything we can say about the future, and this is especially true when the exponential relates to the quantity and quality of intelligence in the world. 
 

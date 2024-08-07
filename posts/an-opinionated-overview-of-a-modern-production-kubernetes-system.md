@@ -5,6 +5,8 @@ description: "A high-level guide to setting up a modern production system with K
 thumbnail: "/img/blog/thumbnail2.png"
 ---
 
+# An opinionated overview of a modern production Kubernetes system
+
 This guide is a work in progress, and I intend to flesh it out with more specific details and examples.
 
 ## Introduction

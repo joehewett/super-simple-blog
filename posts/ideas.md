@@ -5,6 +5,8 @@ description: 'Things I would like to write about.'
 thumbnail: '/img/blog/thumbnail3.png'
 ---
 
+# Ideas
+
 There are a lot of topics I plan to write about.
 
 

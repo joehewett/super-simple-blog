@@ -4,6 +4,7 @@ date: "2023-10-02T18:07:44.675Z"
 description: "I want to keep a log of talks and lectures that I give, for posterity."
 thumbnail: "/img/blog/thumbnail1.png"
 ---
+# Talks I have given
 
 I have only included talks from summer 2023 onwards. 
 

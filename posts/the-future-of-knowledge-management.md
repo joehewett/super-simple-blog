@@ -5,6 +5,8 @@ description: 'How and why our relationship with knowledge must change'
 thumbnail: '/img/blog/thumbnail9.png'
 ---
 
+# The Future of Knowledge Management
+
 Companies are successful in part because of their earned knowledge and the way they deploy it in the world, yet our knowledge management systems are bad in the best case and catastrophically awful at large organisations and in governments. 
 
 Poor management of knowledge means that people repeat work already done by others, waste time searching in the dark across multiple platforms for what they're looking for, and use us valuable co-worker time asking the same questions again and again. 

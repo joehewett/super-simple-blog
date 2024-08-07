@@ -5,6 +5,8 @@ description: "What is inverse scaling and what does it tell us? An exploration o
 thumbnail: "/img/blog/thumbnail2.png"
 ---
 
+# Inverse Scaling 
+
 The Scaling Laws suggest that as we expand computational resources and data for training machine learning models they tend to perform better*. This trend affects a wide range of areas, notably generative models like DALL-E 2 and language models such as GPT-3, which is a machine learning model designed to generate human-like text. It may seem that as these models grow more substantial, they are better at addressing our queries. However, this needs a closer examination.
 
 In actuality, larger models improve in meeting their designated objectives. For example, Language Learning Models, like GPT-3, aim to predict the next token (word or character) in a sequence. Excelling at this task isn't exactly what we, as users, desire. Rather, it's a stepping stone towards our ultimate goal: a model that provides us with utility that we wouldn't otherwise have. However, as we increase the size of these models to improve their performance, we can sometimes inadvertently fall prey to a phenomenon known as Goodhart's Law, which roughly states that when a measure becomes a target, it ceases to be a good measure.

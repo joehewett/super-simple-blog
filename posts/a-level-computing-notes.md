@@ -5,7 +5,7 @@ description: 'A Level CS Notes'
 thumbnail: '/img/blog/thumbnail17.png'
 ---
 
-Joe Hewett     
+# A Level Computing Notes
 
 [Joe Hewett // Notes](index.html)
 *   [Computing](computing.html)

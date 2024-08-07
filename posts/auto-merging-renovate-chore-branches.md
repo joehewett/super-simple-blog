@@ -5,6 +5,8 @@ description: 'A bash script to make Renovate chores less time consuming'
 thumbnail: '/img/blog/thumbnail11.png'
 ---
 
+# Auto-merging Renovate chore branches
+
 Renovate can sometimes produce numerous chore branches in your git repositories, requiring you to manually merge them. This script automates the process.
 
 You can find the full script here https://gist.github.com/joehewett/d45754434da79c1c3cd9d7aee66d570a

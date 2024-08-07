@@ -5,7 +5,11 @@ description: 'Tips for database migrations using Migrate'
 thumbnail: '/img/blog/thumbnail10.png'
 ---
 
+# Migrating your database with Go migrate
+
 Database migrations can be executed seamlessly using the Migrate tool. This allows developers to track and apply changes to their databases over time while ensuring consistency in the application's database schema.
+
+You can install Go migrate at https://github.com/golang-migrate/migrate.
 
 To get started, first, create a new migration file using the `migrate create` command, specify the file extension as SQL, and provide the directory path and a timestamp format for the new file:
 

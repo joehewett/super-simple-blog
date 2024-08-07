@@ -4,6 +4,7 @@ date: "2023-10-14T18:07:44.675Z"
 description: "A quick summary of techniques to keep in mind when reasoning about import cycles"
 thumbnail: "/img/blog/thumbnail15.png"
 ---
+# Breaking the import cycle in Go
 
 If package X accepts/stores/calls methods on/returns types defined package Y, but doesn't actually access Y's (non-method) functions or variables directly, X can use an interface that the type in Y satisfies rather than actually importing Y. 
 

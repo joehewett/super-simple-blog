@@ -5,6 +5,20 @@ description: "I'm doing a little bit of studying on the eval landscape. Here are
 thumbnail: "/img/blog/thumbnail8.png"
 ---
 
+# LM Evals Reading List Winter 2023
+
+The following is a list of papers with notes that I'm collecting on the topic of language model evaluations.
+
+The papers included are as follows:
+- [Model evaluation for extreme risks - DeepMind](https://arxiv.org/pdf/2305.15324.pdf)
+- [Discovering Language Model Behaviors with Model-Written Evaluations - Anthropic](https://arxiv.org/pdf/2212.09251.pdf)
+- [How to Catch an AI Liar: Lie Detection in Black-Box LLMs by Asking Unrelated Questions](https://www.alignmentforum.org/posts/khFC2a4pLPvGtXAGG/how-to-catch-an-ai-liar-lie-detection-in-black-box-llms-by)
+- [Evaluating Language-Model Agents on Realistic Autonomous Tasks - ARC](https://evals.alignment.org/Evaluating_LMAs_Realistic_Tasks.pdf)
+- [Taken out of context: On measuring situation awareness in LLMs](https://arxiv.org/pdf/2309.00667.pdf)
+- [Hoodwinked: Deception and Cooperation in a Text-Based Game for Language Models](https://arxiv.org/pdf/2308.01404.pdf)
+- [How evals might (or might not) prevent catastrophic risks from AI - LW](https://www.lesswrong.com/posts/SNdijuEn6erTJam3z/how-evals-might-or-might-not-prevent-catastrophic-risks-from)
+- [Improving the safety of AI evals - LW](https://www.lesswrong.com/posts/XCRsg2ZnHBNAN862T/improving-the-safety-of-ai-evals)
+
 ## [1] [Model evaluation for extreme risks - DeepMind](https://arxiv.org/pdf/2305.15324.pdf)
 
 ### Motivation
@@ -184,7 +198,7 @@ We simply can't predict the way that models will use tools in the future, but we
 I'm very appreciative of this paper and excited to see how this type of eval setup progresses. 
 
 
-# [Taken out of context: On measuring situation awareness in LLMs](https://arxiv.org/pdf/2309.00667.pdf)
+## [5] [Taken out of context: On measuring situation awareness in LLMs](https://arxiv.org/pdf/2309.00667.pdf)
 
 - A model is situationally aware if it can recognise whether it is in testing or deployment. 
 - Relevant because models that are situationally aware and deceptively aligned could sandbag or deceive in safety evals at test time before changing their behaviour at deployment time.
@@ -205,10 +219,13 @@ self-locating knowledge: knowledge that some model M has that allows M to realis
 
 
 
-## [Hoodwinked: Deception and Cooperation in a Text-Based Game for Language Models](https://arxiv.org/pdf/2308.01404.pdf)
+## [6] [Hoodwinked: Deception and Cooperation in a Text-Based Game for Language Models](https://arxiv.org/pdf/2308.01404.pdf)
+TODO
 
-## [How evals might (or might not) prevent catastrophic risks from AI - LW](https://www.lesswrong.com/posts/SNdijuEn6erTJam3z/how-evals-might-or-might-not-prevent-catastrophic-risks-from)
+## [7] [How evals might (or might not) prevent catastrophic risks from AI - LW](https://www.lesswrong.com/posts/SNdijuEn6erTJam3z/how-evals-might-or-might-not-prevent-catastrophic-risks-from)
+TODO
 
-## [Improving the safety of AI evals - LW](https://www.lesswrong.com/posts/XCRsg2ZnHBNAN862T/improving-the-safety-of-ai-evals)
+## [8] [Improving the safety of AI evals - LW](https://www.lesswrong.com/posts/XCRsg2ZnHBNAN862T/improving-the-safety-of-ai-evals)
+TODO
 
-// 
+
