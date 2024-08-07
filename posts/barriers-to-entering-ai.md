@@ -1,5 +1,5 @@
 ---
-title: 'Barriers to entry in Artificial Intelligence'
+title: 'Barriers to entry in AI'
 date: '2022-06-03T13:00:00.000Z'
 description: 'Why does the average person not engage deeply with Artificial Intelligence?'
 thumbnail: '/img/blog/thumbnail5.png'

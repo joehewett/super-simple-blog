@@ -1,5 +1,5 @@
 ---
-title: 'Automating the merging of Renovate chore branches'
+title: 'Auto-merging Renovate chore branches'
 date: '2023-09-28T15:36:44.675Z'
 description: 'A bash script to make Renovate chores less time consuming'
 thumbnail: '/img/blog/thumbnail11.png'

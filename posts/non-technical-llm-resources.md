@@ -6,7 +6,7 @@ thumbnail: '/img/blog/thumbnail17.png'
 ---
 
 ### Notes
-These are entry level, not-very-technical resources. Generally ranked in order of importance. I will update this list as I find new resources.
+I get asked frequently what kind of resources I'd recommend to people who want to start reasoning about the state and future of AI. The following are what I think are some good resources to get started, from which you can derive more sources depending on your interests and tastes. They are ranked in order of importance (in my opinion) within their category. I will update this list as I find new resources.
 
 Note that these are not technical resources. I personally don't think it is important for everyone to have a deep mechanistic understanding of how LLMs work, but I do think it is important to have a high level understanding of the theory and conversations taking place around the LLMs. This is what this list is for.
 

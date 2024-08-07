@@ -9,7 +9,7 @@ This guide is a work in progress, and I intend to flesh it out with more specifi
 
 ## Introduction
 
-I've been working on a fairly modern, cloud-native software system recently that has involved a few new technologies. As a team with minimal experience building large production-ready systems from the group up, there was a fairly steep learning curve. I wanted to outline some of the major components of the process so that it may serve as a guide for others going through the same thing, and to crystalise my thinking too.
+I've been working on a fairly modern, cloud-native software system recently that has involved a few new technologies. As a team with minimal experience building large production-ready systems from the ground up (rather, we work on a lot of giant legacy systems), there was a fairly steep learning curve. I wanted to outline some of the major components of the process so that it may serve as a guide for others going through the same thing, and to crystalise my thinking too.
 
 This guide will walk you through the process of setting up a Kubernetes-based project, from local development to production deployment. We'll cover containerization, local Kubernetes clusters, infrastructure as code, continuous integration, and GitOps practices.
 

@@ -1,7 +1,7 @@
 ---
 title: "Inverse Scaling"
 date: "2023-05-08T10:12:44.675Z"
-description: "What is inverse scaling and what does it tell us? An exploration of ARC's model-written evals paper."
+description: "What is inverse scaling and what does it tell us? An exploration of ARC's Model-Written Evals paper."
 thumbnail: "/img/blog/thumbnail2.png"
 ---
 
