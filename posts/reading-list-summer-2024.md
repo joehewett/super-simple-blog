@@ -1,8 +1,8 @@
 ---
 title: "Reading List Summer 2024"
-date: "2023-05-08T10:12:44.675Z"
+date: "2024-08-07T10:12:44.675Z"
 description: "A list of posts and papers for the summer."
-thumbnail: "/img/blog/thumbnail2.png"
+thumbnail: "/img/blog/thumbnail6.png"
 ---
 
 ## Must reads
