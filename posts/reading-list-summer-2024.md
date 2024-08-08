@@ -4,6 +4,9 @@ date: "2024-08-07T10:12:44.675Z"
 description: "A list of posts and papers for the summer."
 thumbnail: "/img/blog/thumbnail6.png"
 ---
+# Reading List Summer 2024
+
+This is my reading list for this summer. This list was provided in large part by Ollie Jaffe, so thank you to him. I will be updating this list as I read through the papers and posts.
 
 ## Must reads
 
