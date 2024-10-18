@@ -1,6 +1,6 @@
 ### A simple markdown blog using NextJS
 
-https://simulated.land
+See a live example at https://species.gg
 
 Origianlly forked from [tigranbs](https://github.com/tigranbs) NextJS blog.
 
