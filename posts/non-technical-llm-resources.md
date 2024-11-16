@@ -2,7 +2,7 @@
 title: 'Non-technical LLM Resources'
 date: '2023-11-24T00:00:00.000Z'
 description: 'Resources for keeping up to date with the latest in LLM theory and practice that are not overly technical.'
-thumbnail: '/img/blog/thumbnail17.png'
+thumbnail: '/img/blog/thumbnail18.jpg'
 ---
 
 # Non-technical LLM resources

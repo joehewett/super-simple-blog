@@ -2,7 +2,7 @@
 title: 'A Level Computing Notes'
 date: '2018-06-29T00:07:44.675Z'
 description: 'A Level CS Notes'
-thumbnail: '/img/blog/thumbnail17.png'
+thumbnail: '/img/blog/thumbnail21.jpg'
 ---
 
 # A Level Computing Notes

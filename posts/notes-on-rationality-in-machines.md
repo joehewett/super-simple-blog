@@ -2,7 +2,7 @@
 title: 'Notes on rationality in machines'
 date: '2021-08-30T13:07:44.675Z'
 description: 'A brain dump of some of my thoughts on rationality in machines.'
-thumbnail: '/img/blog/thumbnail9.png'
+thumbnail: '/img/blog/thumbnail24.jpg'
 ---
 # Notes on rationality in machines
 

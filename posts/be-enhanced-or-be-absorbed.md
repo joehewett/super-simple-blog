@@ -2,7 +2,7 @@
 title: 'Be enhanced or be absorbed'
 date: '2024-06-17T00:00:00.000Z'
 description: 'Which systems will be improved by increases in machine intelligence, and which will disintegrate?'
-thumbnail: '/img/blog/thumbnail6.png'
+thumbnail: '/img/blog/thumbnail26.jpg'
 ---
 
 # Be Enhanced or Be Absorbed

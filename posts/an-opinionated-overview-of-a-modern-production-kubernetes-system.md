@@ -64,7 +64,7 @@ Here's an example of how a deployment process might look for a single branch pro
 
 ## Setting Up Your Development Environment
 
-We need our developers
+We need our developers to be able to run the same code on their local machines that will eventually be run in production. This means we need to replicate the production environment as faithfully as possible. We also want the local environment to update in real time as a developer makes code changes. We can achieve this using a local Kubernetes cluster like K3S and a tool like Skaffold.
 
 ### Local Kubernetes Cluster
 
