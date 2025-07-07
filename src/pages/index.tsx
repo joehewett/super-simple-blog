@@ -24,7 +24,7 @@ const Home = (props: {
         <div className="container mx-auto px-4">
           <div className="px-8">
             <h1 className="text-4xl font-bold">joe</h1>
-            <h2 className="text-2xl text-right">rough thoughts on language models, overlanding, computer science</h2>
+            <h2 className="text-2xl text-right">rough thoughts on agentic futures, computer science and software architecture</h2>
 
           </div>
 

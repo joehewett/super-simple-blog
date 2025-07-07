@@ -36,3 +36,10 @@ Features I'd like to add to this site
 
 - ~~A link to create a pull request for a given blog~~
 - Tags for articles
+
+### Scratch Pad
+Ways to say agent supervision
+- runtime evaluation
+- online supervision
+- agent guardrails 
+
