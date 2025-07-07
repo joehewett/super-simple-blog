@@ -1,3 +1,10 @@
+---
+title: 'Generating GitHub Line Links with Vim in VS Code'
+date: '2025-07-07T09:00:00.000Z'
+description: 'Another keybinding I wish I had added sooner'
+thumbnail: '/img/blog/thumbnail10.png'
+---
+
 # Generate GitHub Line Links with a Vim Shortcut in VS Code
 
 Sharing specific lines of code requires navigating to GitHub, finding the file, and copying the URL with line anchor. This process is inefficient and interrupts development flow.
