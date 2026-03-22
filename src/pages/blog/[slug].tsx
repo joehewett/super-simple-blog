@@ -82,13 +82,20 @@ const BlogPost = (props: {
               height={400}
               className="w-full mt-4"
             />
-            <article
-              className='prose lg:prose-lg'
-              dangerouslySetInnerHTML={{
-                __html: md().render(props.content
-                )
-              }}
-            />
+            <article className='prose lg:prose-lg'>
+              <p className="text-gray-500 text-sm !mt-0 !mb-8">
+                {new Date(props.frontMatter.date).toLocaleDateString('en-US', {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric',
+                })}
+              </p>
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: md().render(props.content)
+                }}
+              />
+            </article>
           </div>
         </div>
       </div>
